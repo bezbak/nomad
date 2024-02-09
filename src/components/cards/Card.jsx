@@ -1,5 +1,6 @@
 import { useLocation } from "react-router-dom";
 import './Card.css'
+import Accordion from "../accardion/Accordion.jsx";
 
 const Card = () => {
     const location = useLocation()
@@ -11,7 +12,7 @@ const Card = () => {
         type,
         day,
         video,
-
+        faq
     } = data;
 
     return (
@@ -31,7 +32,7 @@ const Card = () => {
                     <a href="https://wa.me/+996755888905">Написать в WhatsApp</a>
                 </div>
             </div>
-            a
+            <Accordion faq={faq}/>
         </div>
     );
 };
