@@ -1,14 +1,14 @@
 
 import Header from "../../components/header/Header.jsx";
 import Tours from "../../components/tours/Tours.jsx";
-import Advantages from "../../components/advantages/Advantages.jsx";
+import Reviews from "../../components/Reviews/Reviews.jsx";
 
 const MainPage = () => {
     return (
         <div>
             <Header/>
             <Tours/>
-            <Advantages/>
+            <Reviews/>
         </div>
     );
 };
