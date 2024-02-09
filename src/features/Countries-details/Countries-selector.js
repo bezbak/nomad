@@ -1,0 +1,1 @@
+export const CountrySelectors = (state, day) => state.filter(el => el.day === day)
