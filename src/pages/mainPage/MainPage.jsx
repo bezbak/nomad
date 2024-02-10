@@ -6,13 +6,13 @@ import Tours from "../../components/tours/Tours.jsx";
 
 const MainPage = () => {
     return (
-        <div>
+        <>
             <Header/>
             <Tours/>
             <Numbers/>
             <Reviews/>
             <AboutUs/>
-        </div>
+        </>
     );
 };
 

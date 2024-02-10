@@ -1,6 +1,6 @@
 import './Header-slider.css'
-import Slider from "react-slick";
-
+import Slider from "react-slick"; 
+import React from 'react';
 function SimpleSlider() {
     const settings = {
         className: 'header_slider_box',

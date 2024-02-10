@@ -1,12 +1,12 @@
-.header_slider_con{
+.header_slider_con{ 
     width: 100%;
-    height: 100%;
-    border-radius: 10px;
+    border-radius: 14px;
 }
 
 .header_slider_img{
+    border-radius: 15px;
     width: 100%;
-    height: clamp(200px, 5vmin, 500px);
+    height: clamp(200px, 9vmin, 500px);
     background-color: gainsboro;
     border-radius: 10px;
 }
@@ -14,5 +14,6 @@
 .header_slider_img img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
     border-radius: 10px;
 }

@@ -15,7 +15,7 @@ import "slick-carousel/slick/slick-theme.css";
 function App() {
   return (
     <>  
-      {/* <Navbar/> */}
+      <Navbar/>
         <Routes>
             <Route path='/' element={<MainPage/>}/>
             <Route path='/tours/:type' element={<ToursDetails/>}/>

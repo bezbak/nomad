@@ -4,52 +4,21 @@
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 95vh;
+    height: clamp(80vh,95vmin,95vmin);
     display: flex;
     flex-direction: column;
+    justify-content:flex-end;
     align-items: center;
+    padding: 2% 5%;
 }
-
-.container{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: flex-end;
-}
-
-.header_title{
-    width: 70%;
-    height: 100%;
-    font-size: 2.4rem;
+.header h2{
     text-align: center;
-    display: flex;
-    align-items: center;
+    color: #fff;
+    font-size: clamp(20px, 6vmin, 60px);
 }
-
-.header_title h2{
-    width: 70%;
-    color: #ffffff;
+.header h2 b{
+    color:  #FA7436;
 }
-
-.header_title span{
-    color: #ff4d00;
-}
-
-.header_slider{
-    width: 30%;
-    height: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-}
-
-.header_slider .slider{
-    width: 70%;
-    height: 50%;
-    border-radius: 10px;
-}
-
 .overlay-image::before {
     content: "";
     position: absolute;
@@ -60,8 +29,23 @@
     height: 95vh;
     background: rgba(0, 0, 0, 0.5); /* Здесь можно настроить цвет и прозрачность (0.5 - 50% прозрачность черного) */
 }
-
-.container{
-    position: relative;
-    z-index: 1;
+.header__slider-cont{
+    width: 45vmin;
+    height:30vmin;
+}
+.header__slider{
+    width: 50vmin;
+    height: 50%;
+    display: flex;
+    align-items: flex-end;
+    align-self: flex-end;
+    /* height: 500px; */
+}
+@media (max-width:675px) {
+    .header{
+        justify-content: center;
+    }
+    .header__slider{
+        display: none;
+    }
 }
