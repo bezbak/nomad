@@ -41,12 +41,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
 }
 
 .header_slider .slider{
     width: 70%;
     height: 50%;
-    background-color: coral;
+    border-radius: 10px;
 }
 
 .overlay-image::before {

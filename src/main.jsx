@@ -17,8 +17,8 @@ i18n
     .init({
         supportedLngs: ['en', 'ru'],
         fallbackLng: "en",
-        detection: {
-            order: [ 'htmlTag', 'localStorage', 'path', 'subdomain'],
+        detection: {    
+            order: [ 'htmlTag', 'path', 'subdomain'],
         },
         backend:{
             loadPath: '/assets/locales/{{lng}}/translation.json'
