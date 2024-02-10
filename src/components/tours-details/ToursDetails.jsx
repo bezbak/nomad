@@ -6,6 +6,7 @@ import FilterDays from "../../features/Filter-days/Filter-days.jsx";
 import { Link } from "react-router-dom";
 import {FilterCountriesDaySelector} from "../../features/Filter-days/Filter-countries-day-selector.js";
 import './toursDetails.css'
+import {ToursTypeSelector} from "../../features/Tours/Tours-selector.js";
 
 const ToursDetails = () => {
     const { type } = useParams()
@@ -14,30 +15,27 @@ const ToursDetails = () => {
     const activeFilterCountry = useSelector(state => state.filterReducer)
     const activeFilterDay = useSelector(state => state.filterDayReducer)
     const filteredCountries = FilterCountriesDaySelector(countriesArr, activeFilterCountry, type)
-    // const countries = CountrySelectors(countriesArr, activeFilterCountry, type, activeFilterDay)
     const countries = CountrySelectors(filteredCountries, activeFilterDay)
+    const bg = ToursTypeSelector(type)
 
     return (
         <div>
-            <div className='details_header'></div>
+            <div className='details_header' style={{backgroundImage: `url(${bg})`}}></div>
             <FiltersCountry/>
             <FilterDays/>
-            {type}
             {
                 countries.length === 0
                 ?
                 <h2>Скоро...</h2>
                 :
                     countries.map(country =>
-                    <div key={country.id} className='cardDetails' style={{backgroundImage: `url(${country.bgImg})`}}>
-                        <h2>Name: {country.name}</h2>
-                        <h3>{country.title}</h3>
-                        <h3>Day: {country.day}</h3>
-                        <Link className='btn' to={`${country.day}`} state={{data: country}}>More</Link>
+                    <div key={country.id} className='cardDetails' style={{backgroundImage: `url(${country.bg_img})`}}>
+                        <h2>{country.title}</h2>
+                        <h3>{country.sub_title}</h3>
+                        <Link className='btn' to={`${country.day}`} state={{data: country.card_details}}>More</Link>
                     </div>
                 )
             }
-
         </div>
     );
 };

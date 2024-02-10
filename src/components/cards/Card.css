@@ -1,3 +1,13 @@
 .card_con{
     display: flex;
 }
+
+.card_imgs{
+    width: 700px;
+    height: 300px;
+}
+
+.card_imgs img{
+    width: 30%;
+    height: 30%;
+}

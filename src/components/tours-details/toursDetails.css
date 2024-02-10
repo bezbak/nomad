@@ -1,7 +1,9 @@
 .details_header{
     width: 100%;
-    height: 20vh;
-    background: #ff4d00;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .cardDetails{
