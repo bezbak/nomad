@@ -1,0 +1,16 @@
+.slick-slide{
+    text-align: center;
+}
+
+.carousel-cards{
+    height: 270px;
+    width: 400px !important;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+}
+
+.carousel-cards iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
