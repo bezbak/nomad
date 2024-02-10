@@ -1,0 +1,40 @@
+ .buttons{
+    width: 100%;
+    padding:2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vmin;
+ }
+:root{
+    --text:calc(1vh + 1vw)
+}
+ .countryes{
+    box-shadow: 0px 0px 15px #00000020;
+    color: #FA7436;
+    font-weight: 100;
+    outline: none;
+    font-size: clamp(16px, calc(var(--text)*1),40px);
+    padding: 2vmin 4vmin;
+    border-radius: 4px;
+    border: none;
+    background-color: #fafafa;
+    transition: all .5s;
+ }
+ .countryes-active{
+    border: solid 1px #FA7436;
+ }
+ .buttonsDays{
+    width: 100%;
+    display: flex;
+ }
+ .btnDay{
+    font-size: clamp(12px, calc(var(--text)*.8),40px);
+    padding: 1.5vmin 5vmin;
+    border: none;
+    background-color: #484643;
+    color: #fafafa;
+ }
+ .btnDay-active{
+    background-color: #FA7436;
+ }
