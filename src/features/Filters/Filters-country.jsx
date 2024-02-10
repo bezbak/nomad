@@ -1,5 +1,6 @@
 import {setFilter} from "./Filter-slice.js";
 import {useDispatch, useSelector} from "react-redux";
+import '../features.css'
 
 const FiltersCountry = () => {
 
@@ -9,13 +10,13 @@ const FiltersCountry = () => {
     return (
         <div>
             <div className="buttons">
-                <button style={{color: activeFilter === 'kg' ? 'red' : 'black'}}
+                <button className={ activeFilter === 'kg' ? 'countryes countryes-active' : 'countryes '}
                         onClick={() => dispatch(setFilter('kg'))}>Kyrgyzstan
                 </button>
-                <button style={{color: activeFilter === 'kz' ? 'red' : 'black'}}
+                <button className={ activeFilter === 'kz' ? 'countryes countryes-active' : 'countryes '}
                         onClick={() => dispatch(setFilter('kz'))}>Kazakhstan
                 </button>
-                <button style={{color: activeFilter === 'uz' ? 'red' : 'black'}}
+                <button className={ activeFilter === 'uz' ? 'countryes countryes-active' : 'countryes '}
                         onClick={() => dispatch(setFilter('uz'))}>Uzbekistan
                 </button>
             </div>

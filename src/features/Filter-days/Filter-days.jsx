@@ -4,6 +4,7 @@ import {DaySelectors} from "./Filter-day-selectors.js";
 import {useParams} from "react-router-dom";
 import {FilterCountriesDaySelector} from "./Filter-countries-day-selector.js";
 import { useEffect } from "react";
+import '../features.css'
 
 
 const FiltersCountry = () => {
@@ -21,10 +22,10 @@ const FiltersCountry = () => {
 
     return (
         <div>
-            <div className="buttons">
+            <div className="buttonsDays">
                 {
                     days.map(num => (
-                        <button key={num} style={{color: activeFilter === num ? 'red' : 'black'}}
+                        <button key={num} className={ activeFilter === num ? 'btnDay btnDay-active' : 'btnDay'}
                                 onClick={() => dispatch(setFilterDay(num))}>{num} day
                         </button>
                     ))
