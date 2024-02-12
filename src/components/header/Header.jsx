@@ -1,19 +1,38 @@
-
 import './header.css'
-import HeaderSlider from "./Header-slider.jsx";
+import Slider from "react-slick";
+import {useTranslation} from "react-i18next";
 
-const Header = () => {
+function Header() {
+
+    const { t } = useTranslation()
+
+    var settings = {
+        dots: false,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        pauseOnHover: true,
+        arrows: false,
+        speed: 3000,
+    };
     return (
-        <div className='header'>
-
-            <h2>Самый лучший и самый надежный <b>Сервис</b></h2>
-            <div className="header__slider">
-                <div className="header__slider-cont">
-                <HeaderSlider />
-                </div>
+            <div>
+                <Slider {...settings}>
+                    <div className='header header_bg_1'>
+                        <h2>{t('header_title_1')} <b>{t('header_service_1')}</b></h2>
+                    </div>
+                    <div className='header header_bg_2'>
+                        <h2>{t('header_title_1')} <b>{t('header_service_1')}</b></h2>
+                    </div>
+                    <div className='header header_bg_3'>
+                        <h2>{t('header_title_1')} <b>{t('header_service_1')}</b></h2>
+                    </div>
+                </Slider>
+                {/*<div className='overlay-image'></div>*/}
             </div>
-        </div>
     );
-};
+}
 
 export default Header;

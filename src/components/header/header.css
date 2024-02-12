@@ -1,17 +1,31 @@
 .header{
-    background-image: url("https://images.unsplash.com/photo-1608825237534-705cf29d1fa7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
     height: clamp(80vh,95vmin,95vmin);
     display: flex;
-    flex-direction: column;
-    justify-content:flex-end;
+    justify-content: center;
     align-items: center;
     padding: 2% 5%;
 }
+
+.header.header_bg_1{
+    background-image: url("https://images.unsplash.com/photo-1610720684893-619cd7a5cde5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.header.header_bg_2{
+    background-image: url("https://images.unsplash.com/photo-1608497735578-11912e18ed9f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.header.header_bg_3{
+    background-image: url("https://images.unsplash.com/photo-1567886793773-d59bfd7f0aa6?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
 .header h2{
+    /*position: relative;*/
+    /*z-index: 2;*/
+    margin-top: 20%;
     text-align: center;
     color: #fff;
     font-size: clamp(20px, 6vmin, 60px);
@@ -19,33 +33,13 @@
 .header h2 b{
     color:  #FA7436;
 }
-.overlay-image::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    height: 95vh;
-    background: rgba(0, 0, 0, 0.5); /* Здесь можно настроить цвет и прозрачность (0.5 - 50% прозрачность черного) */
-}
-.header__slider-cont{
-    width: 45vmin;
-    height:30vmin;
-}
-.header__slider{
-    width: 50vmin;
-    height: 50%;
-    display: flex;
-    align-items: flex-end;
-    align-self: flex-end;
-    /* height: 500px; */
-}
-@media (max-width:675px) {
-    .header{
-        justify-content: center;
-    }
-    .header__slider{
-        display: none;
-    }
-}
+/*.overlay-image::before {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    right: 0;*/
+/*    bottom: 0;*/
+/*    left: 0;*/
+/*    height: clamp(80vh,95vmin,95vmin);*/
+/*    background: rgba(0, 0, 0, 0.5);*/
+/*}*/
