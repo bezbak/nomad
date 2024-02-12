@@ -1,42 +1,40 @@
 import './tours.css'
 import { useNavigate } from "react-router-dom";
+import {useTranslation} from "react-i18next";
 
 const Tours = () => {
     const navigate = useNavigate()
+    const {t} = useTranslation()
 
     const data = [
         {
-            title:'TRANSORT TOURS',
+            title: t('tours_tr_title'),
             name: 'transport',
-            open:'MORE'
         },
         {
-            title:"HORSE RIDING TOURS",
+            title: t('tours_hr_title'),
             name: 'horse',
-            open:'MORE'
         },
         {
-            title:"WALKING TOURS", 
+            title:"WALKING TOURS",
             name: 'onfoot',
-            open:'MORE'
         },
         {
-            title:"SKI TOURS",
+            title:t('tours_ski_title'),
             name: 'ski',
-            open:'MORE'
         }
     ]
 
     return (
-        <div className='tourss' id='tours'>
-            <h2>Tours</h2>
+        <div className='tours' id='tours'>
+            <h2>{t('tours_title')}</h2>
             <div className="tours_cards">
                 {
                     data.map(type => (
                         <div className="card" key={type.name} onClick={() => navigate(`/tours/${type.name}`)}>
                             <div className="card-bot">
                             <h3>{type.title}</h3>
-                            <h3 className='text-pop-up-left' >{type.open}</h3>
+                            <h3 className='text-pop-up-left' >{t('tours_more_btn')}</h3>
                             </div>
                         </div>
                     ))
