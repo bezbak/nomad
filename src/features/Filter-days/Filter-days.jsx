@@ -6,7 +6,6 @@ import {FilterCountriesDaySelector} from "./Filter-countries-day-selector.js";
 import { useEffect } from "react";
 import '../features.css'
 
-
 const FiltersCountry = () => {
     const { type } = useParams()
     const dispatch = useDispatch()
