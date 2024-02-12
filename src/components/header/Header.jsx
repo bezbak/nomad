@@ -18,20 +18,18 @@ function Header() {
         speed: 3000,
     };
     return (
-            <div>
-                <Slider {...settings}>
-                    <div className='header header_bg_1'>
-                        <h2>{t('header_title_1')} <b>{t('header_service_1')}</b></h2>
-                    </div>
-                    <div className='header header_bg_2'>
-                        <h2>{t('header_title_1')} <b>{t('header_service_1')}</b></h2>
-                    </div>
-                    <div className='header header_bg_3'>
-                        <h2>{t('header_title_1')} <b>{t('header_service_1')}</b></h2>
-                    </div>
-                </Slider>
-                {/*<div className='overlay-image'></div>*/}
-            </div>
+        <div>
+            <Slider {...settings}>
+                <div className='header header_bg_1'>
+                </div>
+                <div className='header header_bg_2'>
+                </div>
+                <div className='header header_bg_3'>
+                </div>
+            </Slider>
+            <h2 className='header_title'>{t('header_title_1')} <b>{t('header_service_1')}</b></h2>
+            <div className='overlay-image'></div>
+        </div>
     );
 }
 
