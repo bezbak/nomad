@@ -1,4 +1,3 @@
-import React from 'react'
 import samalet from './icons/samalet.png'
 import avtobus from './icons/avtobus.png'
 import chemodan from './icons/chemodan.png'
