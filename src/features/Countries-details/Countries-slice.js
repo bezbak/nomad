@@ -6,15 +6,351 @@ const countries = createSlice({
         {
             id: nanoid(),
             name: 'kg',
-            type: 'onfoot',
-            day: '1',
-            title: 'One day Tour in Osh, Kyrgyzstan',
-            sub_title: 'One day, One night',
-            bg_img: 'https://images.unsplash.com/photo-1682687982204-f1a77dcc3067?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+            type: 'transport',
+            day: '5',
+            title: 'Adventure trek in Alay Mountains',
+            sub_title: '4 day, 3 night',
+            bg_img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/7d/7c/10/lenin-peak-7134m.jpg?w=1200&h=-1&s=1',
             card_details: {
-                c_title: 'Kyrgyzstan',
-                c_sub_title: 'Osh - One day',
-                c_description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda at aut corporis, eaque error excepturi inventore iste iure magnam mollitia nemo nesciunt numquam provident quo, rem rerum sit voluptate voluptatum.',
+                c_title: 'Adventure trek in Alay Mountains',
+                c_sub_title: 'Tour itinerary: Osh ~ Sary-Oi ~ Sary-Mogol ~ Tulpar-Kul ~ Osh',
+                c_description: 'Upon arrival at Osh International Airport, tourists will be promptly transported to their hotel. For early arrivals, a visit to Sulaiman Mountain, centrally located in the city, is recommended, followed by a day exploring the cultural and historical offerings of Osh.',
+                c_video: 'https://www.youtube.com/embed/_SB-SOXerRQ?si=qC0iiAuKBWCffc6q',
+                c_img_1: 'https://images.unsplash.com/photo-1606296672103-4783b174ca71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                c_img_2: 'https://images.unsplash.com/photo-1586795153158-22bf74b4f1c3?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                c_img_3: 'https://images.unsplash.com/photo-1627628593424-5f197aebeaeb?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                faq: [
+                    {
+                        q: 'Day 1:  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.',
+                        a: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.'
+                    },
+                    {
+                        q: 'Day 1:  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.',
+                        a: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.'
+                    },
+                ]
+            }
+        },
+        {
+            id: nanoid(),
+            name: 'kg',
+            type: 'transport',
+            day: '5',
+            title: 'Adventure trek in Alay Mountains',
+            sub_title: '4 day, 3 night',
+            bg_img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/7d/7c/10/lenin-peak-7134m.jpg?w=1200&h=-1&s=1',
+            card_details: {
+                c_title: 'Adventure trek in Alay Mountains',
+                c_sub_title: 'Tour itinerary: Osh ~ Sary-Oi ~ Sary-Mogol ~ Tulpar-Kul ~ Osh',
+                c_description: 'Upon arrival at Osh International Airport, tourists will be promptly transported to their hotel. For early arrivals, a visit to Sulaiman Mountain, centrally located in the city, is recommended, followed by a day exploring the cultural and historical offerings of Osh.',
+                c_video: 'https://www.youtube.com/embed/_SB-SOXerRQ?si=qC0iiAuKBWCffc6q',
+                c_img_1: 'https://images.unsplash.com/photo-1606296672103-4783b174ca71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                c_img_2: 'https://images.unsplash.com/photo-1586795153158-22bf74b4f1c3?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                c_img_3: 'https://images.unsplash.com/photo-1627628593424-5f197aebeaeb?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                faq: [
+                    {
+                        q: 'Day 1:  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.',
+                        a: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.'
+                    },
+                    {
+                        q: 'Day 1:  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.',
+                        a: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.'
+                    },
+                ]
+            }
+        },
+        {
+            id: nanoid(),
+            name: 'kg',
+            type: 'transport',
+            day: '5',
+            title: 'Adventure trek in Alay Mountains',
+            sub_title: '4 day, 3 night',
+            bg_img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/7d/7c/10/lenin-peak-7134m.jpg?w=1200&h=-1&s=1',
+            card_details: {
+                c_title: 'Adventure trek in Alay Mountains',
+                c_sub_title: 'Tour itinerary: Osh ~ Sary-Oi ~ Sary-Mogol ~ Tulpar-Kul ~ Osh',
+                c_description: 'Upon arrival at Osh International Airport, tourists will be promptly transported to their hotel. For early arrivals, a visit to Sulaiman Mountain, centrally located in the city, is recommended, followed by a day exploring the cultural and historical offerings of Osh.',
+                c_video: 'https://www.youtube.com/embed/_SB-SOXerRQ?si=qC0iiAuKBWCffc6q',
+                c_img_1: 'https://images.unsplash.com/photo-1606296672103-4783b174ca71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                c_img_2: 'https://images.unsplash.com/photo-1586795153158-22bf74b4f1c3?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                c_img_3: 'https://images.unsplash.com/photo-1627628593424-5f197aebeaeb?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                faq: [
+                    {
+                        q: 'Day 1:  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.',
+                        a: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.'
+                    },
+                    {
+                        q: 'Day 1:  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.',
+                        a: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.'
+                    },
+                ]
+            }
+        },
+        {
+            id: nanoid(),
+            name: 'kg',
+            type: 'transport',
+            day: '5',
+            title: 'Adventure trek in Alay Mountains',
+            sub_title: '4 day, 3 night',
+            bg_img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/7d/7c/10/lenin-peak-7134m.jpg?w=1200&h=-1&s=1',
+            card_details: {
+                c_title: 'Adventure trek in Alay Mountains',
+                c_sub_title: 'Tour itinerary: Osh ~ Sary-Oi ~ Sary-Mogol ~ Tulpar-Kul ~ Osh',
+                c_description: 'Upon arrival at Osh International Airport, tourists will be promptly transported to their hotel. For early arrivals, a visit to Sulaiman Mountain, centrally located in the city, is recommended, followed by a day exploring the cultural and historical offerings of Osh.',
+                c_video: 'https://www.youtube.com/embed/_SB-SOXerRQ?si=qC0iiAuKBWCffc6q',
+                c_img_1: 'https://images.unsplash.com/photo-1606296672103-4783b174ca71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                c_img_2: 'https://images.unsplash.com/photo-1586795153158-22bf74b4f1c3?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                c_img_3: 'https://images.unsplash.com/photo-1627628593424-5f197aebeaeb?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                faq: [
+                    {
+                        q: 'Day 1:  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.',
+                        a: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.'
+                    },
+                    {
+                        q: 'Day 1:  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.',
+                        a: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.'
+                    },
+                ]
+            }
+        },
+        {
+            id: nanoid(),
+            name: 'kg',
+            type: 'transport',
+            day: '5',
+            title: 'Adventure trek in Alay Mountains',
+            sub_title: '4 day, 3 night',
+            bg_img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/7d/7c/10/lenin-peak-7134m.jpg?w=1200&h=-1&s=1',
+            card_details: {
+                c_title: 'Adventure trek in Alay Mountains',
+                c_sub_title: 'Tour itinerary: Osh ~ Sary-Oi ~ Sary-Mogol ~ Tulpar-Kul ~ Osh',
+                c_description: 'Upon arrival at Osh International Airport, tourists will be promptly transported to their hotel. For early arrivals, a visit to Sulaiman Mountain, centrally located in the city, is recommended, followed by a day exploring the cultural and historical offerings of Osh.',
+                c_video: 'https://www.youtube.com/embed/_SB-SOXerRQ?si=qC0iiAuKBWCffc6q',
+                c_img_1: 'https://images.unsplash.com/photo-1606296672103-4783b174ca71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                c_img_2: 'https://images.unsplash.com/photo-1586795153158-22bf74b4f1c3?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                c_img_3: 'https://images.unsplash.com/photo-1627628593424-5f197aebeaeb?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                faq: [
+                    {
+                        q: 'Day 1:  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.',
+                        a: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.'
+                    },
+                    {
+                        q: 'Day 1:  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.',
+                        a: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.'
+                    },
+                ]
+            }
+        },
+        {
+            id: nanoid(),
+            name: 'kg',
+            type: 'transport',
+            day: '5',
+            title: 'Adventure trek in Alay Mountains',
+            sub_title: '4 day, 3 night',
+            bg_img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/7d/7c/10/lenin-peak-7134m.jpg?w=1200&h=-1&s=1',
+            card_details: {
+                c_title: 'Adventure trek in Alay Mountains',
+                c_sub_title: 'Tour itinerary: Osh ~ Sary-Oi ~ Sary-Mogol ~ Tulpar-Kul ~ Osh',
+                c_description: 'Upon arrival at Osh International Airport, tourists will be promptly transported to their hotel. For early arrivals, a visit to Sulaiman Mountain, centrally located in the city, is recommended, followed by a day exploring the cultural and historical offerings of Osh.',
+                c_video: 'https://www.youtube.com/embed/_SB-SOXerRQ?si=qC0iiAuKBWCffc6q',
+                c_img_1: 'https://images.unsplash.com/photo-1606296672103-4783b174ca71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                c_img_2: 'https://images.unsplash.com/photo-1586795153158-22bf74b4f1c3?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                c_img_3: 'https://images.unsplash.com/photo-1627628593424-5f197aebeaeb?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                faq: [
+                    {
+                        q: 'Day 1:  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.',
+                        a: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.'
+                    },
+                    {
+                        q: 'Day 1:  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.',
+                        a: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.'
+                    },
+                ]
+            }
+        },
+        {
+            id: nanoid(),
+            name: 'kg',
+            type: 'transport',
+            day: '5',
+            title: 'Adventure trek in Alay Mountains',
+            sub_title: '4 day, 3 night',
+            bg_img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/7d/7c/10/lenin-peak-7134m.jpg?w=1200&h=-1&s=1',
+            card_details: {
+                c_title: 'Adventure trek in Alay Mountains',
+                c_sub_title: 'Tour itinerary: Osh ~ Sary-Oi ~ Sary-Mogol ~ Tulpar-Kul ~ Osh',
+                c_description: 'Upon arrival at Osh International Airport, tourists will be promptly transported to their hotel. For early arrivals, a visit to Sulaiman Mountain, centrally located in the city, is recommended, followed by a day exploring the cultural and historical offerings of Osh.',
+                c_video: 'https://www.youtube.com/embed/_SB-SOXerRQ?si=qC0iiAuKBWCffc6q',
+                c_img_1: 'https://images.unsplash.com/photo-1606296672103-4783b174ca71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                c_img_2: 'https://images.unsplash.com/photo-1586795153158-22bf74b4f1c3?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                c_img_3: 'https://images.unsplash.com/photo-1627628593424-5f197aebeaeb?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                faq: [
+                    {
+                        q: 'Day 1:  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.',
+                        a: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.'
+                    },
+                    {
+                        q: 'Day 1:  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.',
+                        a: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.'
+                    },
+                ]
+            }
+        },
+        {
+            id: nanoid(),
+            name: 'kg',
+            type: 'transport',
+            day: '5',
+            title: 'Adventure trek in Alay Mountains',
+            sub_title: '4 day, 3 night',
+            bg_img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/7d/7c/10/lenin-peak-7134m.jpg?w=1200&h=-1&s=1',
+            card_details: {
+                c_title: 'Adventure trek in Alay Mountains',
+                c_sub_title: 'Tour itinerary: Osh ~ Sary-Oi ~ Sary-Mogol ~ Tulpar-Kul ~ Osh',
+                c_description: 'Upon arrival at Osh International Airport, tourists will be promptly transported to their hotel. For early arrivals, a visit to Sulaiman Mountain, centrally located in the city, is recommended, followed by a day exploring the cultural and historical offerings of Osh.',
+                c_video: 'https://www.youtube.com/embed/_SB-SOXerRQ?si=qC0iiAuKBWCffc6q',
+                c_img_1: 'https://images.unsplash.com/photo-1606296672103-4783b174ca71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                c_img_2: 'https://images.unsplash.com/photo-1586795153158-22bf74b4f1c3?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                c_img_3: 'https://images.unsplash.com/photo-1627628593424-5f197aebeaeb?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                faq: [
+                    {
+                        q: 'Day 1:  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.',
+                        a: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.'
+                    },
+                    {
+                        q: 'Day 1:  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.',
+                        a: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.'
+                    },
+                ]
+            }
+        },
+        {
+            id: nanoid(),
+            name: 'kg',
+            type: 'transport',
+            day: '5',
+            title: 'Adventure trek in Alay Mountains',
+            sub_title: '4 day, 3 night',
+            bg_img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/7d/7c/10/lenin-peak-7134m.jpg?w=1200&h=-1&s=1',
+            card_details: {
+                c_title: 'Adventure trek in Alay Mountains',
+                c_sub_title: 'Tour itinerary: Osh ~ Sary-Oi ~ Sary-Mogol ~ Tulpar-Kul ~ Osh',
+                c_description: 'Upon arrival at Osh International Airport, tourists will be promptly transported to their hotel. For early arrivals, a visit to Sulaiman Mountain, centrally located in the city, is recommended, followed by a day exploring the cultural and historical offerings of Osh.',
+                c_video: 'https://www.youtube.com/embed/_SB-SOXerRQ?si=qC0iiAuKBWCffc6q',
+                c_img_1: 'https://images.unsplash.com/photo-1606296672103-4783b174ca71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                c_img_2: 'https://images.unsplash.com/photo-1586795153158-22bf74b4f1c3?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                c_img_3: 'https://images.unsplash.com/photo-1627628593424-5f197aebeaeb?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                faq: [
+                    {
+                        q: 'Day 1:  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.',
+                        a: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.'
+                    },
+                    {
+                        q: 'Day 1:  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.',
+                        a: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.'
+                    },
+                ]
+            }
+        },
+        {
+            id: nanoid(),
+            name: 'kg',
+            type: 'transport',
+            day: '5',
+            title: 'Adventure trek in Alay Mountains',
+            sub_title: '4 day, 3 night',
+            bg_img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/7d/7c/10/lenin-peak-7134m.jpg?w=1200&h=-1&s=1',
+            card_details: {
+                c_title: 'Adventure trek in Alay Mountains',
+                c_sub_title: 'Tour itinerary: Osh ~ Sary-Oi ~ Sary-Mogol ~ Tulpar-Kul ~ Osh',
+                c_description: 'Upon arrival at Osh International Airport, tourists will be promptly transported to their hotel. For early arrivals, a visit to Sulaiman Mountain, centrally located in the city, is recommended, followed by a day exploring the cultural and historical offerings of Osh.',
+                c_video: 'https://www.youtube.com/embed/_SB-SOXerRQ?si=qC0iiAuKBWCffc6q',
+                c_img_1: 'https://images.unsplash.com/photo-1606296672103-4783b174ca71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                c_img_2: 'https://images.unsplash.com/photo-1586795153158-22bf74b4f1c3?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                c_img_3: 'https://images.unsplash.com/photo-1627628593424-5f197aebeaeb?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                faq: [
+                    {
+                        q: 'Day 1:  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.',
+                        a: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.'
+                    },
+                    {
+                        q: 'Day 1:  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.',
+                        a: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.'
+                    },
+                ]
+            }
+        },
+        {
+            id: nanoid(),
+            name: 'kg',
+            type: 'transport',
+            day: '5',
+            title: 'Adventure trek in Alay Mountains',
+            sub_title: '4 day, 3 night',
+            bg_img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/7d/7c/10/lenin-peak-7134m.jpg?w=1200&h=-1&s=1',
+            card_details: {
+                c_title: 'Adventure trek in Alay Mountains',
+                c_sub_title: 'Tour itinerary: Osh ~ Sary-Oi ~ Sary-Mogol ~ Tulpar-Kul ~ Osh',
+                c_description: 'Upon arrival at Osh International Airport, tourists will be promptly transported to their hotel. For early arrivals, a visit to Sulaiman Mountain, centrally located in the city, is recommended, followed by a day exploring the cultural and historical offerings of Osh.',
+                c_video: 'https://www.youtube.com/embed/_SB-SOXerRQ?si=qC0iiAuKBWCffc6q',
+                c_img_1: 'https://images.unsplash.com/photo-1606296672103-4783b174ca71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                c_img_2: 'https://images.unsplash.com/photo-1586795153158-22bf74b4f1c3?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                c_img_3: 'https://images.unsplash.com/photo-1627628593424-5f197aebeaeb?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                faq: [
+                    {
+                        q: 'Day 1:  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.',
+                        a: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.'
+                    },
+                    {
+                        q: 'Day 1:  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.',
+                        a: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.'
+                    },
+                ]
+            }
+        },
+        {
+            id: nanoid(),
+            name: 'kg',
+            type: 'transport',
+            day: '5',
+            title: 'Adventure trek in Alay Mountains',
+            sub_title: '4 day, 3 night',
+            bg_img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/7d/7c/10/lenin-peak-7134m.jpg?w=1200&h=-1&s=1',
+            card_details: {
+                c_title: 'Adventure trek in Alay Mountains',
+                c_sub_title: 'Tour itinerary: Osh ~ Sary-Oi ~ Sary-Mogol ~ Tulpar-Kul ~ Osh',
+                c_description: 'Upon arrival at Osh International Airport, tourists will be promptly transported to their hotel. For early arrivals, a visit to Sulaiman Mountain, centrally located in the city, is recommended, followed by a day exploring the cultural and historical offerings of Osh.',
+                c_video: 'https://www.youtube.com/embed/_SB-SOXerRQ?si=qC0iiAuKBWCffc6q',
+                c_img_1: 'https://images.unsplash.com/photo-1606296672103-4783b174ca71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                c_img_2: 'https://images.unsplash.com/photo-1586795153158-22bf74b4f1c3?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                c_img_3: 'https://images.unsplash.com/photo-1627628593424-5f197aebeaeb?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                faq: [
+                    {
+                        q: 'Day 1:  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.',
+                        a: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.'
+                    },
+                    {
+                        q: 'Day 1:  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.',
+                        a: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi expedita nisi temporibus voluptas, voluptate.'
+                    },
+                ]
+            }
+        },
+        {
+            id: nanoid(),
+            name: 'kg',
+            type: 'transport',
+            day: '5',
+            title: 'Adventure trek in Alay Mountains',
+            sub_title: '4 day, 3 night',
+            bg_img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/7d/7c/10/lenin-peak-7134m.jpg?w=1200&h=-1&s=1',
+            card_details: {
+                c_title: 'Adventure trek in Alay Mountains',
+                c_sub_title: 'Tour itinerary: Osh ~ Sary-Oi ~ Sary-Mogol ~ Tulpar-Kul ~ Osh',
+                c_description: 'Upon arrival at Osh International Airport, tourists will be promptly transported to their hotel. For early arrivals, a visit to Sulaiman Mountain, centrally located in the city, is recommended, followed by a day exploring the cultural and historical offerings of Osh.',
                 c_video: 'https://www.youtube.com/embed/_SB-SOXerRQ?si=qC0iiAuKBWCffc6q',
                 c_img_1: 'https://images.unsplash.com/photo-1606296672103-4783b174ca71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                 c_img_2: 'https://images.unsplash.com/photo-1586795153158-22bf74b4f1c3?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
@@ -156,7 +492,7 @@ const countries = createSlice({
                 c_sub_title: 'Bishkek - One day',
                 c_description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda at aut corporis, eaque error excepturi inventore iste iure magnam mollitia nemo nesciunt numquam provident quo, rem rerum sit voluptate voluptatum.',
                 c_video: 'https://www.youtube.com/embed/_SB-SOXerRQ?si=qC0iiAuKBWCffc6q',
-                c_img_1: 'https://images.unsplash.com/photo-1606296672103-4783b174ca71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                c_img_1: 'https://www.journalofnomads.com/wp-content/uploads/2021/10/Alai-Mountains-Kyrgyzstan-Trekking-Tours-Best-of-Alay-Trek.jpg',
                 c_img_2: 'https://images.unsplash.com/photo-1586795153158-22bf74b4f1c3?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                 c_img_3: 'https://images.unsplash.com/photo-1627628593424-5f197aebeaeb?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                 faq: [

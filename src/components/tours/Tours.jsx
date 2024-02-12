@@ -16,7 +16,7 @@ const Tours = () => {
             open:'MORE'
         },
         {
-            title:"WALKING TOURS",
+            title:"WALKING TOURS", 
             name: 'onfoot',
             open:'MORE'
         },
@@ -28,7 +28,7 @@ const Tours = () => {
     ]
 
     return (
-        <div className='tours' id='tours'>
+        <div className='tourss' id='tours'>
             <h2>Tours</h2>
             <div className="tours_cards">
                 {

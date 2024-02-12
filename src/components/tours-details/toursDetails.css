@@ -25,3 +25,8 @@
     text-align: center;
     font-size: 1.5em;
 }
+.tours_con{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vmin;
+}

@@ -19,10 +19,11 @@ const ToursDetails = () => {
     const bg = ToursTypeSelector(type)
 
     return (
-        <div>
+        <>
             <div className='details_header' style={{backgroundImage: `url(${bg})`}}></div>
             <FiltersCountry/>
             <FilterDays/>
+            <div className="tours_con">
             {
                 countries.length === 0
                 ?
@@ -36,7 +37,8 @@ const ToursDetails = () => {
                     </div>
                 )
             }
-        </div>
+            </div>
+        </>
     );
 };
 
