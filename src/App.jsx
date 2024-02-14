@@ -7,6 +7,8 @@ import Navbar from './components/navbar/Navbar.jsx';
 import Footer from './bot/Footer.jsx'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Tours from "./components/tours/Tours.jsx";
+import AboutUs from "./bot/AboutUs.jsx";
 
 
 function App() {

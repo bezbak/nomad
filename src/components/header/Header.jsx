@@ -17,7 +17,7 @@ function Header() {
         speed: 3000,
     };
     return (
-        <div>
+        <div id='main'>
             <Slider {...settings}>
                 <div className='header header_bg_1'>
                 </div>

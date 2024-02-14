@@ -1,6 +1,6 @@
 import './navbar.css'
 import logo from '../../img/logo.svg'
-import i18next, { use } from "i18next";
+import i18next from "i18next";
 import {useTranslation} from "react-i18next";
 import { useState, useEffect } from 'react'
 import eng from './eng.png'
@@ -49,10 +49,10 @@ const Navbar = () => {
             <img src={logo} alt="" onClick={()=>nav('/')}/>
             <div className={span === false?"dark":"dark dark-active"} onClick={()=>{span===false?setSpan(true):setSpan(false)}}></div>     
             <ul className={span === false?"nav__menu":"nav__menu nav__menu-active"}>
-                <li><a href="#">{t('nav_main')}</a></li>
-                <li><a href="#tours">{t('nav_tours')}</a></li>
-                <li><a href="#">{t('nav_aboutUs')}</a></li>
-                <li><a href="#">{t('nav_contacts')}</a></li>
+                <li><a onClick={()=>nav('/')}>{t('nav_main')}</a></li>
+                <li><a href='#tours' onClick={()=>nav('/')}>{t('nav_tours')}</a></li>
+                <li><a href='#about' onClick={()=>nav('/')}>{t('nav_aboutUs')}</a></li>
+                <li><a href='#contacts' onClick={()=>nav('/')}>{t('nav_contacts')}</a></li>
                 <button className='nav_lng' key={languages[state].code} onClick={handleClick}>
                     <img src={languages[state].name} alt="" />
             </button>
