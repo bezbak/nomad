@@ -48,7 +48,7 @@ export default function AboutUs() {
                     </div>
                 </div>
             </div>
-            <div className="about">
+            <div className="about" id='about'>
                 <h2>{t('about_us_title')}</h2>
                 <div className="about__flex">
                     <div className="about__flex-items items-left">

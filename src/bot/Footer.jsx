@@ -11,15 +11,15 @@ export default function Footer() {
     const {t} = useTranslation()
 
     return (
-        <footer className='footer'>
+        <footer className='footer' id='contacts'>
             <div className="footer__items">
                 <div className="footer__flex">
                     <div className="footer__items-cols">
                         <h2>{t('footer_menu')}</h2>
-                        <a>{t('nav_main')}</a>
-                        <a>{t('nav_tours')}</a>
-                        <a>{t('nav_aboutUs')}</a>
-                        <a>{t('nav_contacts')}</a>
+                        <a href='#main'>{t('nav_main')}</a>
+                        <a href='#tours'>{t('nav_tours')}</a>
+                        <a href='#about'>{t('nav_aboutUs')}</a>
+                        <a href='#contacts'>{t('nav_contacts')}</a>
                     </div>
                     <div className="footer__items-cols">
                         <h2>{t('nav_contacts')}</h2>
