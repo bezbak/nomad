@@ -7,16 +7,17 @@ import { Link } from "react-router-dom";
 import {FilterCountriesDaySelector} from "../../features/Filter-days/Filter-countries-day-selector.js";
 import './toursDetails.css'
 import {ToursTypeSelector} from "../../features/Tours/Tours-selector.js";
+import {useTranslation} from "react-i18next";
 
 const ToursDetails = () => {
     const { type } = useParams()
-
     const countriesArr = useSelector(state => state.countriesReducer)
     const activeFilterCountry = useSelector(state => state.filterReducer)
     const activeFilterDay = useSelector(state => state.filterDayReducer)
     const filteredCountries = FilterCountriesDaySelector(countriesArr, activeFilterCountry, type)
     const countries = CountrySelectors(filteredCountries, activeFilterDay)
     const bg = ToursTypeSelector(type)
+    const {t} = useTranslation()
 
     return (
         <>
@@ -31,9 +32,9 @@ const ToursDetails = () => {
                 :
                     countries.map(country =>
                     <div key={country.id} className='cardDetails' style={{backgroundImage: `url(${country.bg_img})`}}>
-                        <h2>{country.title}</h2>
-                        <h3>{country.sub_title}</h3>
-                        <Link className='btn' to={`${country.day}`} state={{data: country.card_details}}>More</Link>
+                        <h2>{t(country.title)}</h2>
+                        <h3>{t(country.sub_title)}</h3>
+                        <Link className='btn' to={`${country.day}`} state={{data: country.card_details}}>{t('tours_more_btn')}</Link>
                     </div>
                 )
             }

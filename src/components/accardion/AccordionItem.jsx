@@ -1,13 +1,15 @@
 import { useRef } from "react";
 import PropTypes from "prop-types";
 import { ReactComponent as ArrowIcon } from '../../img/arrow-icon.svg'
+import {useTranslation} from "react-i18next";
 
 const AccordionItem = ({faqItem, onClick, isOpen}) => {
+    const {t} = useTranslation()
     const itemRef = useRef(null)
     return (
         <li className='accardion-item'>
             <button className='accardion-header' onClick={() => onClick()}>
-                {faqItem.q}
+                {t(faqItem.q)}
                 <ArrowIcon className={`accardion-arrow ${isOpen ? 'active' : ''}`}/>
             </button>
             <div className='accardion-collapse'
@@ -15,7 +17,7 @@ const AccordionItem = ({faqItem, onClick, isOpen}) => {
                     isOpen ? {height: itemRef.current.scrollHeight} : {height: '0px'}
                 }
             >
-                <div className='accardion-body' ref={itemRef}>{faqItem.a}</div>
+                <div className='accardion-body' ref={itemRef}>{t(faqItem.a)}</div>
             </div>
         </li>
     )

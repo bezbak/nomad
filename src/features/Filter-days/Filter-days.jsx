@@ -5,6 +5,7 @@ import {useParams} from "react-router-dom";
 import {FilterCountriesDaySelector} from "./Filter-countries-day-selector.js";
 import { useEffect } from "react";
 import '../features.css'
+import {useTranslation} from "react-i18next";
 
 const FiltersCountry = () => {
     const { type } = useParams()
@@ -14,6 +15,8 @@ const FiltersCountry = () => {
     const activeFilterCountry = useSelector(state => state.filterReducer)
     const filteredCountries = FilterCountriesDaySelector(countriesArr, activeFilterCountry, type)
     const days = Object.keys(DaySelectors(filteredCountries))
+
+    const {t} = useTranslation()
 
     useEffect(() => {
         days.length === 0 ? null : dispatch(setFilterDay(days[0]))
@@ -25,7 +28,7 @@ const FiltersCountry = () => {
                 {
                     days.map(num => (
                         <button key={num} className={ activeFilter === num ? 'btnDay btnDay-active' : 'btnDay'}
-                                onClick={() => dispatch(setFilterDay(num))}>{num} day
+                                onClick={() => dispatch(setFilterDay(num))}>{num} {t('day')}
                         </button>
                     ))
                 }
