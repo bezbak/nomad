@@ -5,14 +5,12 @@ import ToursDetails from "./components/tours-details/ToursDetails.jsx";
 import Card from "./components/cards/Card.jsx";
 import Navbar from './components/navbar/Navbar.jsx';
 import Footer from './bot/Footer.jsx'
-import AboutUs from './bot/AboutUs.jsx'
-import Reviews from './components/Reviews/Reviews.jsx'
-import Numbers from './bot/Numbers.jsx'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 
 function App() {
+
   return (
     <>  
       <Navbar/>
