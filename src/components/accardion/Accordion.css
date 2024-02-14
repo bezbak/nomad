@@ -1,28 +1,32 @@
 .accardion{
     list-style-type: none;
-    margin: 16px;
-    padding: 16px;
-    background-color: #dcdcdc;
+    margin:2% 0;
+    padding: 3% 5%;
     border-radius: 7px;
-    width: 60%;
+    width: 100%;
 }
-
 .accardion-item{
+    /* border-top: solid 1px; */
+    border-bottom: solid 1px;
     margin-bottom: 16px;
     background-color: #ffff;
-    border-radius: 7px;
 }
 
 .accardion-header{
     position: relative;
     width: 100%;
-    padding: 20px 60px 30px 20px;
+    padding: 3vmin;
     background-color: #fff;
     border: 0;
+    outline: none;
     border-radius: 7px;
-    font-size: 22px;
     text-align: left;
     cursor: pointer;
+}
+.accardion-header h4{
+    font-size: clamp(13px, calc(var(--text)*1),25px);
+    max-width: 90%;
+    font-weight: 500;
 }
 
 .accardion-collapse{
@@ -36,13 +40,12 @@
 }
 
 .accardion-body{
-    padding: 30px 60px 30px 30px;
+    padding: 2vmin 3vmin;
     background-color: #f1f1f1;
-    border-bottom-left-radius: 7px;
-    border-bottom-right-radius: 7px;
-    font-size: 20px;
+    font-size: clamp(11px, calc(var(--text)*.8),18px);
     color: #393939;
 }
+
 
 .accardion-arrow{
     position: absolute;

@@ -25,7 +25,8 @@
 .header_title{
     position: absolute;
     top: 50%;
-    left: 25%;
+    left: 15%;
+    right: 15%;
     z-index: 2;
     text-align: center;
     color: #fff;

@@ -9,8 +9,8 @@ function CardSlider({imgs}) {
         c_img_2,
         c_img_3
     } = imgs
-
-    var settings = {
+ 
+    let settings = {
         dots: true,
         infinite: true,
         slidesToShow: 1,

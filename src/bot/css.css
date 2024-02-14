@@ -46,6 +46,7 @@
 .numbers__flex-items {
     text-align: center;
     border: solid 2px #ffffff26;
+    width: 30%;
     padding: 5%;
     height: 100%;
     border-radius: 20px;

@@ -23,10 +23,60 @@
     height: 10%;
     background-color: cadetblue;
     text-align: center;
-    font-size: 1.5em;
+    /* font-size: 1.5em; */
 }
 .tours_con{
+    
+    padding:3% 0 2% calc(12% - 3vmin);
     display: flex;
     flex-wrap: wrap;
-    gap: 2vmin;
+    
+    row-gap: 5vmin;
+    column-gap: 1%;
+}
+.cardDetails{
+    border-radius: 5vmin;
+    width: clamp(150px,22%, 600px);
+    height: clamp(230px, 55vmin, 800px);
+    color: #fff;
+    position: relative;
+    padding: 3vmin;
+    overflow: hidden;
+}
+.cardDetails-content{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    height: 100%;
+    gap: 5%;
+}
+.cardDetails-content h2{
+    font-size: clamp(13px, calc(var(--text)*1),25px);
+}
+.cardDetails-content h3{
+    font-size: clamp(11px, calc(var(--text)*.8),20px);
+}
+@media (max-width:1204px) {
+    
+    .cardDetails{
+        width: clamp(150px,23%, 600px);
+        height:clamp(230px, 40vmin, 800px) ;
+    }
+}
+.cardDetails-content button{
+    width: 
+    100%;
+    border: none;
+    border-radius: 15px;
+    padding: 5%;
+}
+.cardDetails::before{
+    display: block;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0005;
 }

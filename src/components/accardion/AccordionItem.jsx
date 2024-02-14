@@ -7,8 +7,9 @@ const AccordionItem = ({faqItem, onClick, isOpen}) => {
     return (
         <li className='accardion-item'>
             <button className='accardion-header' onClick={() => onClick()}>
-                {faqItem.q}
-                <ArrowIcon className={`accardion-arrow ${isOpen ? 'active' : ''}`}/>
+                <h4>{faqItem.q}</h4>
+                   <ArrowIcon className={`accardion-arrow ${isOpen ? 'active' : ''}`}/>
+             
             </button>
             <div className='accardion-collapse'
                 style={

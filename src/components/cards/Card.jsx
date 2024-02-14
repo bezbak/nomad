@@ -19,10 +19,12 @@ const Card = () => {
 
     const imgs = { c_img_1, c_img_2, c_img_3 }
     return (
-        <div>
+        <div className="cards-linkDetailsexy">
             <div className='card_con'>
+                <div className="card_con-items cardslider">
                 <CardSlider imgs={imgs}/>
-                <div className='card_desc'>
+                </div>
+                <div className='card_con-items card_desc'>
                     <h2>{c_title}</h2>
                     <h3>{c_sub_title}</h3>
                     <p>{c_description}</p>
