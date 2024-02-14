@@ -16,19 +16,22 @@ const ToursDetails = () => {
     const activeFilterDay = useSelector(state => state.filterDayReducer)
     const filteredCountries = FilterCountriesDaySelector(countriesArr, activeFilterCountry, type)
     const countries = CountrySelectors(filteredCountries, activeFilterDay)
-    const bg = ToursTypeSelector(type)
+    const {url, title, description} = ToursTypeSelector(type)
     const {t} = useTranslation()
 
     return (
         <>
-            <div className='details_header' style={{ backgroundImage: `url(${bg})` }}></div>
+            <div className='details_header' style={{ backgroundImage: `url(${url})` }}>
+                <h2>{t(title)}</h2>
+                <p>{t(description)}</p>
+            </div>
             <FiltersCountry />
             <FilterDays />
             <div className="tours_con">
             {
                 countries.length === 0
                 ?
-                <h2>Скоро...</h2>
+                <h2>{t('soon')}...</h2>
                 :
                     countries.map(country =>
                     <div key={country.id} className='cardDetails' style={{backgroundImage: `url(${country.bg_img})`}}>

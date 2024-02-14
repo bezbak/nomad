@@ -32,14 +32,14 @@ function PauseOnHover() {
                                 allowFullScreen></iframe>
                     </div>
                     <div className='carousel-cards'>
-                        <iframe width="914" height="514" src="https://www.youtube.com/embed/pG_jOgIFZxE"
+                        <iframe width="914" height="514" src="https://www.youtube.com/embed/0tjRUjk7f9Y?si=9nwaJbTG_iFn_DO8"
                                 title="Scenic views of Osh region | Kyrgyzstan 🇰🇬 #nomadpeaks#travel #tour #adventure #kyrgyzstan"
                                 frameBorder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 allowFullScreen></iframe>
                     </div>
                     <div className='carousel-cards'>
-                        <iframe width="914" height="514" src="https://www.youtube.com/embed/pG_jOgIFZxE"
+                        <iframe width="914" height="514" src="https://www.youtube.com/embed/VRwwXjlCnlU?si=wLcyq7GX2-h1aEq-"
                                 title="Scenic views of Osh region | Kyrgyzstan 🇰🇬 #nomadpeaks#travel #tour #adventure #kyrgyzstan"
                                 frameBorder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

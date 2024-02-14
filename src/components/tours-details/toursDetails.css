@@ -6,6 +6,10 @@
     background-repeat: no-repeat;
 }
 
+.btn button{
+    cursor: pointer;
+}
+
 .cardDetails{
     width: 200px;
     height: 300px;
