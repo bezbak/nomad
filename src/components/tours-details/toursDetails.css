@@ -54,9 +54,13 @@
 }
 .cardDetails-content h2{
     font-size: clamp(13px, calc(var(--text)*1),25px);
+    position: relative;
+    z-index: 3;
 }
 .cardDetails-content h3{
     font-size: clamp(11px, calc(var(--text)*.8),20px);
+    position: relative;
+    z-index: 3;
 }
 @media (max-width:1204px) {
     
@@ -65,10 +69,11 @@
         height:clamp(230px, 40vmin, 800px) ;
     }
 }
-.cardDetails-content button{
-    width: 
-    100%;
+.cardDetails-content a button{
+    width: 100%;
     border: none;
+    position: relative; 
+    z-index: 2;
     border-radius: 15px;
     padding: 5%;
 }
@@ -77,6 +82,7 @@
     content: '';
     position: absolute;
     width: 100%;
+    z-index: 0;
     height: 100%;
     background-color: #0005;
 }

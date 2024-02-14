@@ -1,4 +1,8 @@
 {
+  "kgz": "Kyrgyzstan",
+  "kaz": "Kazakhstan",
+  "uzb": "Uzbekistan",
+  "day": "day",
   "nav_main": "Main",
   "nav_tours": "Tours",
   "nav_aboutUs": "About Us",
@@ -11,6 +15,7 @@
   "tours_ft_title": "Tours on Foot",
   "tours_ski_title": "Ski tours",
   "tours_more_btn": "More",
+  "type_wa": "Type in Whats Up",
   "numbers_title_1": "Satisfied customers all over the country",
   "numbers_title_2": "Tours in different locations and countries",
   "numbers_title_3": "We've been working with tourists \n for years now.",
@@ -27,5 +32,14 @@
   "footer_menu": "Menu",
   "footer_social": "Social Media",
   "footer_partners": "Partners",
-  "footer_dev": "Website developed by "
+  "footer_dev": "Website developed by ",
+  "1_t": "Adventure trek in Alay Mountains",
+  "1_s_t": "4 day, 3 night",
+  "1_c_t": "Adventure trek in Alay Mountains",
+  "1_c_s_t": "Tour itinerary: Osh ~ Sary-Oi ~ Sary-Mogol ~ Tulpar-Kul ~ Osh",
+  "1_c_d": "Upon arrival at Osh International Airport, tourists will be promptly transported to their hotel. For early arrivals, a visit to Sulaiman Mountain, centrally located in the city, is recommended, followed by a day exploring the cultural and historical offerings of Osh.",
+  "1_f_1_q": "question 1 tour 1",
+  "1_f_1_a": "answer 1 tour 1",
+  "1_f_2_q": "question 2 tour 1",
+  "1_f_2_a": "answer 2 tour 2"
 }
