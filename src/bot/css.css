@@ -271,6 +271,10 @@
     line-height: clamp(10px, 3vmin, 5vmin);
     text-decoration: none;
     color: #777881;
+    transition: all .3s;
+}
+.footer__items-cols a:hover{
+    color: #ffff;
 }
 .footer-right iframe{
     width: 100%;
@@ -281,8 +285,13 @@
     align-items: center; 
     gap: 10px;   
 }
+
 .footer-icons img{
     width: 3.5vmin;
+    transition: all .4s;
+}
+.footer-icons img:hover{
+    transform: translateY(-10px);
 }
 @media (max-width:750px) {
     .footer{

@@ -3,7 +3,7 @@
     padding: 1.5vmin 5vmin;
     top: 2%; 
     left: 7.5%;
-    position: fixed;
+    position: fixed; 
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -44,8 +44,12 @@
 .nav__menu a{
     cursor: pointer;
     color: #dadada;
-    
+    transition: .4s all;
     font-size: clamp(14px,calc(var(--text)*.8),22px);
+}
+.nav__menu a:hover{
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 15px #fff;
 }
 .nav_lng{
     background-color: transparent;
@@ -66,7 +70,7 @@
     display: none;
 }
 .burger span{
-    width: 36px;
+    width: 30px;
     height: 2px;
     border-radius: 5px;
     background-color: #ffffff94;
@@ -100,6 +104,8 @@
         top: 100%;
         background-color: orange;
         padding:10%;
+        width: 100%;
+        justify-content: center;
         height: 86vh;
         left: 0;
         opacity: 0;
@@ -112,13 +118,13 @@
         opacity: 1;
     }
     .dark{
-        position: absolute;
-        width: 100vw;
-        height: 100vh;
-        background-color: rgba(0, 0, 0, 0.599);
-        left: -10%;
-        top: -37%;
+        position: fixed;
+        width: 200vw;
+        height: 200vh;
+        background-color: #0005;
+        left: -50%;
         display: none;
+        z-index: 0;
     }
     .dark-active{
         display: block;

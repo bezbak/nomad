@@ -6,7 +6,7 @@ function Header() {
 
     const { t } = useTranslation()
 
-    var settings = {
+    var settings = { 
         dots: false,
         infinite: true,
         slidesToShow: 1,

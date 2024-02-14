@@ -18,12 +18,14 @@ const ToursDetails = () => {
     const countries = CountrySelectors(filteredCountries, activeFilterDay)
     const {url, title, description} = ToursTypeSelector(type)
     const {t} = useTranslation()
-
+ 
     return (
         <>
             <div className='details_header' style={{ backgroundImage: `url(${url})` }}>
+                <div className="dedais__header-content">
                 <h2>{t(title)}</h2>
                 <p>{t(description)}</p>
+                </div>
             </div>
             <FiltersCountry />
             <FilterDays />
