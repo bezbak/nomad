@@ -5,9 +5,11 @@ import inst from './icons/inst.png'
 import face from './icons/face.png'
 import it from './icons/it.png'
 import {useTranslation} from "react-i18next";
+import { useNavigate } from 'react-router-dom'
+
 
 export default function Footer() {
-
+    const navigate = useNavigate()
     const {t} = useTranslation()
 
     return (
@@ -16,25 +18,23 @@ export default function Footer() {
                 <div className="footer__flex">
                     <div className="footer__items-cols">
                         <h2>{t('footer_menu')}</h2>
-                        <a href='#main'>{t('nav_main')}</a>
-                        <a href='#tours'>{t('nav_tours')}</a>
-                        <a href='#about'>{t('nav_aboutUs')}</a>
+                        <a href='#main' onClick={()=>navigate('/')} >{t('nav_main')}</a>
+                        <a href='#tours' onClick={()=>navigate('/')} > {t('nav_tours')}</a>
+                        <a href='#about' onClick={()=>navigate('/')} >{t('nav_aboutUs')}</a>
                         <a href='#contacts'>{t('nav_contacts')}</a>
                     </div>
                     <div className="footer__items-cols">
                         <h2>{t('nav_contacts')}</h2>
-                        <a href="tel:+996 777 77 77 77">+996 777 77 77 77</a>
-                        <a href="tel:+996 777 77 77 77">+996 777 77 77 77</a>
-                        <a href="tel:+996 777 77 77 77">+996 777 77 77 77</a>
-                        <a href="tel:+996 777 77 77 77">+996 777 77 77 77</a>
+                        <a href="tel:++996 558 88 30 24">+996 558 88 30 24</a>
+                        <a href="tel:++996 502 23 06 98">+996 502 23 06 98</a>
                     </div>
                     <div className="footer__items-cols">
                         <h2>{t('footer_social')}</h2>
                         <div className="footer-icons">
-                            <a href="#"><img src={face} alt="" /></a>
-                            <a href="#"><img src={you} alt="" /></a>
-                            <a href="#"><img src={inst} alt="" /></a>
-                            <a href="#"><img src={whats} alt="" /></a>
+                            <a href="https://www.facebook.com/profile.php?id=61555421665774"><img src={face} alt="" /></a>
+                            <a href="https://youtube.com/@NomadPeaks?si=Z1X9Xop8Xuv7Tk09"><img src={you} alt="" /></a>
+                            <a href="https://www.instagram.com/p/CyvUErjNnU7/?igsh=MXR0NHVkNG10NmZyMg=="><img src={inst} alt="" /></a>
+                            <a href="https://chat.whatsapp.com/Df7YmMPMd6t9cDTqPniPgd"><img src={whats} alt="" /></a>
                         </div>
                         <h2>{t('footer_partners')}</h2>
                     </div>

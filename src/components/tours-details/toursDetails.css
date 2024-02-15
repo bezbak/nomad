@@ -8,7 +8,10 @@
     align-items: center;
     position: relative;
     justify-content: center;
-
+}
+*::selection{
+    background-color: #FE940A;
+    color: #fafafa;
 }
 .details_header::before{
     content: '';
