@@ -10,6 +10,8 @@ const AccordionItem = ({faqItem, onClick, isOpen}) => {
         <li className='accardion-item'>
             <button className='accardion-header' onClick={() => onClick()}>
                <h4> {t(faqItem.q)}</h4>
+                <h3>{t('accomodation')}: {t(faqItem.ac)}</h3>
+                <h3>{t('meals')}: {t(faqItem.meals)}</h3>
                 <ArrowIcon className={`accardion-arrow ${isOpen ? 'active' : ''}`}/>
             </button>
             <div className='accardion-collapse'

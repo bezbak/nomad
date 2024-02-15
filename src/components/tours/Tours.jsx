@@ -38,10 +38,7 @@ const Tours = () => {
                                     </h3>
                                 </div>
                             <div className="card-bot">
-                               
-                                {/* <h3>{type.title}</h3> */}
                                   <h3 className='text-pop-up-left' >{t('tours_more_btn')}</h3>
-                                
                             </div>
                         </div>
                     ))
