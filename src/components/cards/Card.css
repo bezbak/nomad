@@ -17,8 +17,8 @@
 /*    height: 30%;*/
 /*}*/
 .slick-list{
-    border-radius: 30px !important;
-    overflow: hidden !important;
+    /* border-radius: 30px !important;
+    overflow: hidden !important; */
 }
 .card_slider_container{
     width: 100%;

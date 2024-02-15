@@ -9,14 +9,14 @@ const Tours = () => {
     const data = [
         {
             title: t('tours_tr_title'),
-            name: 'transport',
+            name: 'transport', 
         },
         {
             title: t('tours_hr_title'),
             name: 'horse',
         },
         {
-            title:"WALKING TOURS",
+            title: t('tours_ft_title'),
             name: 'onfoot',
         },
         {
@@ -32,9 +32,16 @@ const Tours = () => {
                 {
                     data.map(type => (
                         <div className="card" key={type.name} onClick={() => navigate(`/tours/${type.name}`)}>
+                             <div className="overlay-title">
+                                    <h3>
+                                    {type.title}
+                                    </h3>
+                                </div>
                             <div className="card-bot">
-                            <h3>{type.title}</h3>
-                            <h3 className='text-pop-up-left' >{t('tours_more_btn')}</h3>
+                               
+                                {/* <h3>{type.title}</h3> */}
+                                  <h3 className='text-pop-up-left' >{t('tours_more_btn')}</h3>
+                                
                             </div>
                         </div>
                     ))

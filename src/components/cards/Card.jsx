@@ -30,12 +30,12 @@ const Card = () => {
                     <h2>{t(c_title)}</h2>
                     <h3>{t(c_sub_title)}</h3>
                     <p>{t(c_description)}</p>
-                    <a href="https://wa.me/+996755888905">{t('type_wa')}</a>
+                    <a href="https://chat.whatsapp.com/Df7YmMPMd6t9cDTqPniPgd">{t('type_wa')}</a>
                 </div>
             </div>
             <Accordion faq={faq}/>
         </div>
     );
-};
+};``
 
 export default Card;
