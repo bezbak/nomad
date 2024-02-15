@@ -24,7 +24,7 @@ const Card = () => {
         <div className="cards-linkDetailsexy">
             <div className='card_con'>
                 <div className="card_con-items cardslider">
-                <CardSlider imgs={imgs}/>
+                    <CardSlider imgs={imgs}/>
                 </div>
                 <div className='card_con-items  card_desc'>
                     <h2>{t(c_title)}</h2>
