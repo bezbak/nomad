@@ -4,6 +4,9 @@ import you from './icons/Vector.png'
 import inst from './icons/inst.png'
 import face from './icons/face.png'
 import it from './icons/it.png'
+import oppa from './icons/oppa.png'
+import standof from './icons/standoff.png'
+import turan from './icons/turan.png'
 import {useTranslation} from "react-i18next";
 import { useNavigate } from 'react-router-dom'
 
@@ -36,7 +39,15 @@ export default function Footer() {
                             <a href="https://www.instagram.com/p/CyvUErjNnU7/?igsh=MXR0NHVkNG10NmZyMg=="><img src={inst} alt="" /></a>
                             <a href="https://chat.whatsapp.com/Df7YmMPMd6t9cDTqPniPgd"><img src={whats} alt="" /></a>
                         </div>
-                        <h2>{t('footer_partners')}</h2>
+                      
+                    </div>
+                    <div className="footer__items-cols">
+                    <h2>{t('footer_partners')}</h2>
+                        <div className="footer-iconss">
+                            <a href="https://www.oppa.kg/"><img src={oppa} alt="" /></a>
+                            <a href="https://youtube.com/@NomadPeaks?si=Z1X9Xop8Xuv7Tk09"><img src={standof} alt="" /></a>
+                            <a href="https://www.instagram.com/p/CyvUErjNnU7/?igsh=MXR0NHVkNG10NmZyMg=="><img src={turan} alt="" /></a>
+                        </div>
                     </div>
                 </div>
                 <a className='itPark' href="https://www.instagram.com/itpark_osh/?igsh=MXFsbjg4bmxidDltOQ%3D%3D">

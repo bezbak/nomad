@@ -45,6 +45,9 @@
     font-size: clamp(11px, calc(var(--text)*.8),18px);
     color: #393939;
 }
+.accardion-body h3{
+    margin: 10px 0;
+}
 
 
 .accardion-arrow{

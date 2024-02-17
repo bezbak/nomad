@@ -18,32 +18,32 @@ export default function AboutUs() {
                 <div className="icons__flex">
                     <div className="icons__flex-items">
                         <img src={samalet} alt="IT PARK" />
-                        <p><b>1. </b> {t('choose_1')}
+                        <p>{t('choose_1')}
                         </p>
                     </div>
                     <div className="icons__flex-items">
                         <img src={avtobus} alt="IT PARK" />
-                        <p><b>2. </b> {t('choose_2')}
+                        <p>{t('choose_2')}
                         </p>
                     </div>
                     <div className="icons__flex-items">
                         <img src={chemodan} alt="IT PARK" />
-                        <p><b>3. </b>{t('choose_3')}
+                        <p>{t('choose_3')}
                         </p>
                     </div>
                     <div className="icons__flex-items">
                         <img src={search} alt="IT PARK" />
-                        <p><b>4. </b>{t('choose_4')}
+                        <p>{t('choose_4')}
                         </p>
                     </div>
                     <div className="icons__flex-items">
                         <img src={at} alt="IT PARK" />
-                        <p><b>5. </b>{t('choose_5')}
+                        <p>{t('choose_5')}
                         </p>
                     </div>
                     <div className="icons__flex-items">
                         <img src={lyja} alt="IT PARK" />
-                        <p><b>6.</b>{t('choose_6')}
+                        <p>{t('choose_6')}
                         </p>
                     </div>
                 </div>

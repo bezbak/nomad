@@ -257,14 +257,14 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    column-gap: 10vmin;
-    row-gap: 5vmin;
+    column-gap: 6vmin;
+    row-gap: 3vmin;
 }
 
 .footer__items-cols {
     display: flex;
     flex-direction: column;
-    min-width: 100px;
+    min-width: 120px;
 }
 
 .footer__items-cols h2 {
@@ -290,12 +290,26 @@
     align-items: center; 
     gap: 10px;   
 }
+.footer-iconss{
+    display: flex;
+    /* align-items: center;  */
+    flex-direction: column;
+    gap: 10px;   
+}
 
 .footer-icons img{
     width: 3.5vmin;
     transition: all .4s;
 }
+.footer-iconss img{
+    width:10vmin;
+    cursor: pointer;
+    transition: all .4s;
+}
 .footer-icons img:hover{
+    transform: translateY(-10px);
+}
+.footer-iconss img:hover{
     transform: translateY(-10px);
 }
 @media (max-width:750px) {

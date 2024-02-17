@@ -30,7 +30,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 3vmin;
+    gap: clamp(11px ,1.8vmin,30px);
 }
 @media (max-width:800px) {
     .card_con-items{
@@ -54,10 +54,12 @@
     height: 60vmin;
 }
 .card_desc h2{
-    font-size: clamp(20px, 5vmin, 46px);
+    font-size: clamp(16px, 4vmin, 46px);
 }
 .card_desc h3{
-    font-size: clamp(14px, 3vmin, 36px);
+    font-weight: 100;
+    line-height: clamp(15px, 2vmin, 30px);
+    font-size: clamp(12px, 1.8vmin, 36px);
 }
 .card_desc p{
     font-size: clamp(11px, 2vmin, 36px);
@@ -70,4 +72,8 @@
     border-radius: 15px;
     background-color: #FE940A;
     width: fit-content;
+}
+.c_description{
+    padding: 3vmin 5%;
+    font-size: clamp(12px, 1.8vmin, 36px);
 }

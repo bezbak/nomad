@@ -36,19 +36,19 @@ const Card = () => {
                 </div>
                 <div className='card_con-items  card_desc'>
                     <h2>{t(c_title)}</h2>
-                    <h3>{t('category')}: {t(c_category)}</h3>
-                    <h3>{t('itinerary')}: {t(c_sub_title)}</h3>
-                    <h3>{t('time_o_y')}: {t(c_time)} </h3>
-                    <h3>{t('duration')}: {t(c_d)}</h3>
-                    <h3>{t('accomodation')}: {t(c_acc)}</h3>
-                    <h3>{t('operated')}: {t(c_operate)}</h3>
-                    <h3>{t('tour_op')}: {t(c_tour_op)}</h3>
-                    <h3>{t('age')}: {t(c_age)}</h3>
-                    <h3>{t('size')}: {t(c_size)}</h3>
+                    <h3><b>{t('category')}:</b> {t(c_category)}</h3>
+                    <h3><b>{t('itinerary')}:</b> {t(c_sub_title)}</h3>
+                    <h3><b>{t('time_o_y')}:</b> {t(c_time)} </h3>
+                    <h3><b>{t('duration')}:</b> {t(c_d)}</h3>
+                    <h3><b>{t('accomodation')}:</b> {t(c_acc)}</h3>
+                    <h3><b>{t('operated')}:</b> {t(c_operate)}</h3>
+                    <h3><b>{t('tour_op')}:</b> {t(c_tour_op)}</h3>
+                    <h3><b>{t('age')}:</b> {t(c_age)}</h3>
+                    <h3><b>{t('size')}:</b> {t(c_size)}</h3>
                     <a href="https://chat.whatsapp.com/Df7YmMPMd6t9cDTqPniPgd">{t('type_wa')}</a>
                 </div>
             </div>
-            <h2></h2><p>{t(c_description)}</p>
+            <p className="c_description" >{t(c_description)}</p>
             <Accordion faq={faq}/>
         </div>
     );

@@ -10,8 +10,7 @@ const AccordionItem = ({faqItem, onClick, isOpen}) => {
         <li className='accardion-item'>
             <button className='accardion-header' onClick={() => onClick()}>
                <h4> {t(faqItem.q)}</h4>
-                <h3>{t('accomodation')}: {t(faqItem.ac)}</h3>
-                <h3>{t('meals')}: {t(faqItem.meals)}</h3>
+                
                 <ArrowIcon className={`accardion-arrow ${isOpen ? 'active' : ''}`}/>
             </button>
             <div className='accardion-collapse'
@@ -19,7 +18,10 @@ const AccordionItem = ({faqItem, onClick, isOpen}) => {
                     isOpen ? {height: itemRef.current.scrollHeight} : {height: '0px'}
                 }
             >
-                <div className='accardion-body' ref={itemRef}>{t(faqItem.a)}</div>
+                <div className='accardion-body' ref={itemRef}>
+                <h3>{t('accomodation')}: {t(faqItem.ac)}</h3>
+                <h3>{t('meals')}: {t(faqItem.meals)}</h3>
+                    {t(faqItem.a)}</div>
             </div>
         </li>
     )
