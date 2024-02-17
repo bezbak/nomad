@@ -24,7 +24,7 @@ const FiltersCountry = () => {
 
     return (
        
-            <div className="buttonsDays mobile">
+            <div className="buttonsDays computer">
                 {
                     days.map(num => (
                         <button key={num} className={ activeFilter === num ? 'btnDay btnDay-active' : 'btnDay'}

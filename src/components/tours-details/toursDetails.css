@@ -68,6 +68,7 @@
     row-gap: 5vmin;
     column-gap: 1%;
 }
+
 .cardDetails{
     border-radius: 5vmin;
     width: clamp(150px,22%, 600px);
@@ -92,6 +93,7 @@
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
+    width: 100%;
     height: 100%;
     gap: 5%;
 }

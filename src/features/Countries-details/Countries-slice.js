@@ -11,6 +11,10 @@ import c_3_1 from './images/транс/3 Scenic adventure around Issyk-Kul lake.
 import c_3_2 from './images/транс/3 Scenic adventure around Issyk-Kul lake. 3 days/img2.jpg'
 import c_3_3 from './images/транс/3 Scenic adventure around Issyk-Kul lake. 3 days/img3.jpg'
 
+import c_4_1 from './images/транс/2 The optimal single-day tour showcasing the scenic beauty of Issyk-Kul Lake/img1.jpg'
+import c_4_2 from './images/транс/2 The optimal single-day tour showcasing the scenic beauty of Issyk-Kul Lake/img2.jpg'
+import c_4_3 from './images/транс/2 The optimal single-day tour showcasing the scenic beauty of Issyk-Kul Lake/img3.jpg'
+
 import h_1_1 from './images/ат/1  Nomadic Horse Ridding adventure in Song-Kul 4 nights5 days/img1.webp'
 import h_1_2 from './images/ат/1  Nomadic Horse Ridding adventure in Song-Kul 4 nights5 days/img2.webp'
 import h_1_3 from './images/ат/1  Nomadic Horse Ridding adventure in Song-Kul 4 nights5 days/img3.webp'
@@ -19,6 +23,17 @@ import f_1_1 from './images/Пешком/4 Five day`s tour plan Ош/img1.jpg'
 import f_1_2 from './images/Пешком/4 Five day`s tour plan Ош/img2.jpg'
 import f_1_3 from './images/Пешком/4 Five day`s tour plan Ош/img3.jpg'
 
+import f_2_1 from './images/Пешком/1  Explore both Ala-Archa National Park and Bishkek city in a single day/img1.jpg'
+import f_2_2 from './images/Пешком/1  Explore both Ala-Archa National Park and Bishkek city in a single day/img2.jpg'
+import f_2_3 from './images/Пешком/1  Explore both Ala-Archa National Park and Bishkek city in a single day/img3.jpg'
+
+import f_3_1 from './images/Пешком/5 One day`s tour plan in Osh/img1.jpg'
+import f_3_2 from './images/Пешком/5 One day`s tour plan in Osh/img2.jpg'
+import f_3_3 from './images/Пешком/5 One day`s tour plan in Osh/img3.jpg'
+
+import s_1_1 from './images/лыжа/Freestyle skiing and Ski excursions in Kyrgyzstan/img1.jpg'
+import s_1_2 from './images/лыжа/Freestyle skiing and Ski excursions in Kyrgyzstan/img2.jpg'
+import s_1_3 from './images/лыжа/Freestyle skiing and Ski excursions in Kyrgyzstan/img3.jpg'
 
 const initialState = [
     {
@@ -484,7 +499,7 @@ const initialState = [
         day: '1',
         title: '8_t',
         sub_title: '8_s_t',
-        bg_img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/7d/7c/10/lenin-peak-7134m.jpg?w=1200&h=-1&s=1',
+        bg_img:f_2_2,
         card_details: {
             c_title: '8_t',
             c_sub_title: '8_c_s_t',
@@ -497,9 +512,9 @@ const initialState = [
             c_tour_op: '8_c_t_o',
             c_age: '8_c_age',
             c_size: '8_c_s',
-            c_img_1: 'https://images.unsplash.com/photo-1606296672103-4783b174ca71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            c_img_2: 'https://images.unsplash.com/photo-1586795153158-22bf74b4f1c3?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            c_img_3: 'https://images.unsplash.com/photo-1627628593424-5f197aebeaeb?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+            c_img_1: f_2_1,
+            c_img_2:f_2_2,
+            c_img_3: f_2_3,
             faq: [
                 {
                     ac: '8_f_1_ac',
@@ -554,7 +569,7 @@ const initialState = [
         day: '1',
         title: '9_t',
         sub_title: '9_s_t',
-        bg_img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/7d/7c/10/lenin-peak-7134m.jpg?w=1200&h=-1&s=1',
+        bg_img: c_4_1,
         card_details: {
             c_title: '9_t',
             c_sub_title: '9_c_s_t',
@@ -567,9 +582,9 @@ const initialState = [
             c_tour_op: '9_c_t_o',
             c_age: '9_c_age',
             c_size: '9_c_s',
-            c_img_1: 'https://images.unsplash.com/photo-1606296672103-4783b174ca71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            c_img_2: 'https://images.unsplash.com/photo-1586795153158-22bf74b4f1c3?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            c_img_3: 'https://images.unsplash.com/photo-1627628593424-5f197aebeaeb?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+            c_img_1: c_4_1,
+            c_img_2: c_4_2,
+            c_img_3: c_4_3,
             faq: [
                 {
                     ac: '9_f_1_ac',
@@ -610,9 +625,6 @@ const initialState = [
             ]
         }
     },
-
-
-
     {
         id: nanoid(),
         name: 'kg',
@@ -620,7 +632,7 @@ const initialState = [
         day: '1',
         title: '10_t',
         sub_title: '10_s_t',
-        bg_img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/7d/7c/10/lenin-peak-7134m.jpg?w=1200&h=-1&s=1',
+        bg_img: f_3_1,
         card_details: {
             c_title: '10_t',
             c_sub_title: '10_c_s_t',
@@ -633,9 +645,9 @@ const initialState = [
             c_tour_op: '10_c_t_o',
             c_age: '10_c_age',
             c_size: '10_c_s',
-            c_img_1: 'https://images.unsplash.com/photo-1606296672103-4783b174ca71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            c_img_2: 'https://images.unsplash.com/photo-1586795153158-22bf74b4f1c3?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            c_img_3: 'https://images.unsplash.com/photo-1627628593424-5f197aebeaeb?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+            c_img_1: f_3_1,
+            c_img_2: f_3_2,
+            c_img_3: f_3_3,
             faq: [
                 {
                     ac: '10_f_1_ac',
@@ -670,9 +682,6 @@ const initialState = [
             ]
         }
     },
-
-
-
     {
         id: nanoid(),
         name: 'kg',
@@ -680,7 +689,7 @@ const initialState = [
         day: '1',
         title: '11_t',
         sub_title: '11_s_t',
-        bg_img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/7d/7c/10/lenin-peak-7134m.jpg?w=1200&h=-1&s=1',
+        bg_img:f_3_2,
         card_details: {
             c_title: '11_t',
             c_sub_title: '11_c_s_t',
@@ -695,7 +704,7 @@ const initialState = [
             c_size: '11_c_s',
             c_img_1: 'https://images.unsplash.com/photo-1606296672103-4783b174ca71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
             c_img_2: 'https://images.unsplash.com/photo-1586795153158-22bf74b4f1c3?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            c_img_3: 'https://images.unsplash.com/photo-1627628593424-5f197aebeaeb?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+            c_img_3: f_3_2,
             faq: [
                 {
                     ac: '11_f_1_ac',
@@ -730,8 +739,6 @@ const initialState = [
             ]
         }
     },
-
-
     {
         id: nanoid(),
         name: 'kg',
@@ -739,7 +746,7 @@ const initialState = [
         day: '1',
         title: '12_t',
         sub_title: '12_s_t',
-        bg_img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/7d/7c/10/lenin-peak-7134m.jpg?w=1200&h=-1&s=1',
+        bg_img:'https://kyrtag.kg/upload/iblock/ea1/ea175f765416d9153b4efaf7b4338e24.jpg',
         card_details: {
             c_title: '12_t',
             c_sub_title: '12_c_s_t',
@@ -752,9 +759,9 @@ const initialState = [
             c_tour_op: '12_c_t_o',
             c_age: '12_c_age',
             c_size: '12_c_s',
-            c_img_1: 'https://images.unsplash.com/photo-1606296672103-4783b174ca71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            c_img_2: 'https://images.unsplash.com/photo-1586795153158-22bf74b4f1c3?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            c_img_3: 'https://images.unsplash.com/photo-1627628593424-5f197aebeaeb?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+            c_img_1: f_3_1,
+            c_img_2: 'https://media-cdn.tripadvisor.com/media/photo-m/1280/14/f7/1f/8d/snacks-at-jayma-bazaar.jpg',
+            c_img_3: 'https://central-asia.guide/wp-content/uploads/2021/10/osh_park_main_square-1024x682.jpg',
             faq: [
                 {
                     ac: '12_f_1_ac',
@@ -789,9 +796,6 @@ const initialState = [
             ]
         }
     },
-
-
-
     {
         id: nanoid(),
         name: 'kg',
@@ -799,7 +803,7 @@ const initialState = [
         day: '7',
         title: '13_t',
         sub_title: '13_s_t',
-        bg_img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/7d/7c/10/lenin-peak-7134m.jpg?w=1200&h=-1&s=1',
+        bg_img: s_1_1,
         card_details: {
             c_title: '13_t',
             c_sub_title: '13_c_s_t',
@@ -812,9 +816,9 @@ const initialState = [
             c_tour_op: '13_c_t_o',
             c_age: '13_c_age',
             c_size: '13_c_s',
-            c_img_1: 'https://images.unsplash.com/photo-1606296672103-4783b174ca71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            c_img_2: 'https://images.unsplash.com/photo-1586795153158-22bf74b4f1c3?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            c_img_3: 'https://images.unsplash.com/photo-1627628593424-5f197aebeaeb?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+            c_img_1: s_1_1,
+            c_img_2: s_1_2,
+            c_img_3:s_1_3,
             faq: [
                 {
                     ac: '13_f_1_ac',

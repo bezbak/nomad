@@ -38,3 +38,11 @@
  .btnDay-active{
     background-color: #FA7436;
  }
+ .mobile{
+   /* display: none; */
+ }
+ .computer{
+   display: flex;
+   flex-direction: column;
+   width: clamp(100px, 10%, 300px);
+ }
