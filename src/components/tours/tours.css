@@ -85,56 +85,17 @@
     }
 }
 .card:nth-child(1){
-    background-image: url("https://images.unsplash.com/photo-1484976063837-eab657a7aca7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-image: url('./tours-img/tour-1.avif');
 }
 
 .card:nth-child(2){
-    background-image: url("https://images.unsplash.com/photo-1598711033236-3e0b403a14e8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-image: url("./tours-img/tour-2.avif");
 }
 
 .card:nth-child(3){
-    background-image: url("https://images.unsplash.com/photo-1476522465286-b5b94c729d2a?q=80&w=2058&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-image: url("./tours-img/tour-3.avif");
 }
 
 .card:nth-child(4){
-    background-image: url("https://images.unsplash.com/photo-1585919269458-6259dfe9f21a?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-image: url("./tours-img/tour-4.avif");
 }
-
-/* 
-.text-pop-up-left {
-	-webkit-animation: text-pop-up-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate both;
-	        animation: text-pop-up-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate both;
-}
- @-webkit-keyframes text-pop-up-left {
-    0% {
-      -webkit-transform: translateY(0);
-              transform: translateY(0);
-      -webkit-transform-origin: 10% 10%;
-              transform-origin: 10% 10%;
-      text-shadow: none;
-    }
-    100% {
-      -webkit-transform: translateY(-10px);
-              transform: translateY(-10px);
-      -webkit-transform-origin: 10% 10%;
-              transform-origin: 10% 10%;
-      text-shadow: 0 1px 0 #cccccc, 0 1px 0 #cccccc, 0 3px 0 #cccccc, 0 3px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 4px 0 #cccccc, 0 4px 0 #cccccc, 0 4px 0 #cccccc, 0 10px 30px rgba(0, 0, 0, 0.3);
-    }
-  }
-  @keyframes text-pop-up-left {
-    0% {
-      -webkit-transform: translateY(0);
-              transform: translateY(0);
-      -webkit-transform-origin: 10% 10%;
-              transform-origin: 10% 10%;
-      text-shadow: none;
-    }
-    100% {
-      -webkit-transform: translateY(-10px);
-              transform: translateY(-10px);
-      -webkit-transform-origin: 10% 10%;
-              transform-origin: 10% 10%;
-      text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 3px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 4px 0 #cccccc, 0 4px 0 #cccccc, 0 4px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
-    }
-  }
-   */

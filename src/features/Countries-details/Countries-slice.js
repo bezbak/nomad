@@ -836,12 +836,7 @@ const initialState = [
                     q: '13_f_6_q',
                     a: '13_f_6_a'
                 },
-                {
-                    ac: '13_f_7_ac',
-                    meals: '13_f_7_m',
-                    q: '13_f_7_q',
-                    a: '13_f_7_a'
-                },
+
             ]
         }
     },

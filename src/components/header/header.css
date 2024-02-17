@@ -11,15 +11,15 @@
 }
 
 .header.header_bg_1{
-    background-image: url("https://images.unsplash.com/photo-1610720684893-619cd7a5cde5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-image: url("./header-img/header-1.avif");
 }
 
 .header.header_bg_2{
-    background-image: url("https://images.unsplash.com/photo-1608497735578-11912e18ed9f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-image: url("./header-img/header-2.avif");
 }
 
 .header.header_bg_3{
-    background-image: url("https://images.unsplash.com/photo-1567886793773-d59bfd7f0aa6?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-image: url("./header-img/header-4.avif");
 }
 
 .header_title{
