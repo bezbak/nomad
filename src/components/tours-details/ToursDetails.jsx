@@ -36,7 +36,8 @@ const ToursDetails = () => {
                 <h2>{t('soon')}...</h2>
                 :
                     countries.map(country =>
-                    <div key={country.id} className='cardDetails' style={{backgroundImage: `url(${country.bg_img})`}}>
+                    <div key={country.id} className='cardDetails'>
+                        <img src={country.bg_img} alt="" />
                        <div className="cardDetails-content">
                        <h2>{t(country.title)}</h2>
                         <h3>{t(country.sub_title)}</h3>

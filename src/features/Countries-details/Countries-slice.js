@@ -1,4 +1,24 @@
 import { createSlice, nanoid } from "@reduxjs/toolkit";
+import c_1_1  from './images/транс/2  Exploration of the Sacred Landscapes of Kyrgyzstan through Off-Road Adventures 10 days/img1.jpg'
+import c_1_2  from './images/транс/2  Exploration of the Sacred Landscapes of Kyrgyzstan through Off-Road Adventures 10 days/img2.jpg'
+import c_1_3  from './images/транс/2  Exploration of the Sacred Landscapes of Kyrgyzstan through Off-Road Adventures 10 days/img3.jpg'
+
+import c_2_1 from './images/транс/1  Kyrgyz off road Adventure 8 nights9 days/img1.jpg'
+import c_2_2 from './images/транс/1  Kyrgyz off road Adventure 8 nights9 days/bg.webp'
+import c_2_3 from './images/транс/1  Kyrgyz off road Adventure 8 nights9 days/img3.jpg'
+
+import c_3_1 from './images/транс/3 Scenic adventure around Issyk-Kul lake. 3 days/img1.jpg'
+import c_3_2 from './images/транс/3 Scenic adventure around Issyk-Kul lake. 3 days/img2.jpg'
+import c_3_3 from './images/транс/3 Scenic adventure around Issyk-Kul lake. 3 days/img3.jpg'
+
+import h_1_1 from './images/ат/1  Nomadic Horse Ridding adventure in Song-Kul 4 nights5 days/img1.webp'
+import h_1_2 from './images/ат/1  Nomadic Horse Ridding adventure in Song-Kul 4 nights5 days/img2.webp'
+import h_1_3 from './images/ат/1  Nomadic Horse Ridding adventure in Song-Kul 4 nights5 days/img3.webp'
+
+import f_1_1 from './images/Пешком/4 Five day`s tour plan Ош/img1.jpg'
+import f_1_2 from './images/Пешком/4 Five day`s tour plan Ош/img2.jpg'
+import f_1_3 from './images/Пешком/4 Five day`s tour plan Ош/img3.jpg'
+
 
 const initialState = [
     {
@@ -8,7 +28,7 @@ const initialState = [
         day: '9',
         title: '1_t',
         sub_title: '1_s_t',
-        bg_img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/7d/7c/10/lenin-peak-7134m.jpg?w=1200&h=-1&s=1',
+        bg_img: c_2_2,
         card_details: {
             c_title: '1_t',
             c_sub_title: '1_c_s_t',
@@ -21,9 +41,9 @@ const initialState = [
             c_tour_op: '1_c_t_o',
             c_age: '1_c_age',
             c_size: '1_c_s',
-            c_img_1: 'https://images.unsplash.com/photo-1606296672103-4783b174ca71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            c_img_2: 'https://images.unsplash.com/photo-1586795153158-22bf74b4f1c3?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            c_img_3: 'https://images.unsplash.com/photo-1627628593424-5f197aebeaeb?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+            c_img_1: c_2_1,
+            c_img_2: c_2_2,
+            c_img_3: c_2_3,
             faq: [
                 {
                     ac: '1_f_1_ac',
@@ -89,7 +109,7 @@ const initialState = [
         day: '11',
         title: '2_t',
         sub_title: '2_s_t',
-        bg_img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/7d/7c/10/lenin-peak-7134m.jpg?w=1200&h=-1&s=1',
+        bg_img: c_1_1,
         card_details: {
             c_title: '2_t',
             c_sub_title: '2_c_s_t',
@@ -102,9 +122,9 @@ const initialState = [
             c_tour_op: '2_c_t_o',
             c_age: '2_c_age',
             c_size: '2_c_s',
-            c_img_1: 'https://images.unsplash.com/photo-1606296672103-4783b174ca71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            c_img_2: 'https://images.unsplash.com/photo-1586795153158-22bf74b4f1c3?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            c_img_3: 'https://images.unsplash.com/photo-1627628593424-5f197aebeaeb?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+            c_img_1: c_1_1,
+            c_img_2: c_1_2,
+            c_img_3: c_1_3,
             faq: [
                 {
                     ac: '2_f_1_ac',
@@ -182,7 +202,7 @@ const initialState = [
         day: '5',
         title: '3_t',
         sub_title: '3_s_t',
-        bg_img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/7d/7c/10/lenin-peak-7134m.jpg?w=1200&h=-1&s=1',
+        bg_img: h_1_1,
         card_details: {
             c_title: '3_t',
             c_sub_title: '3_c_s_t',
@@ -195,9 +215,9 @@ const initialState = [
             c_tour_op: '3_c_t_o',
             c_age: '3_c_age',
             c_size: '3_c_s',
-            c_img_1: 'https://images.unsplash.com/photo-1606296672103-4783b174ca71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            c_img_2: 'https://images.unsplash.com/photo-1586795153158-22bf74b4f1c3?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            c_img_3: 'https://images.unsplash.com/photo-1627628593424-5f197aebeaeb?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+            c_img_1: h_1_1,
+            c_img_2: h_1_2,
+            c_img_3: h_1_3,
             faq: [
                 {
                     ac: '3_f_1_ac',
@@ -231,8 +251,7 @@ const initialState = [
                 },
             ]
         }
-    },
-
+    },  
     {
         id: nanoid(),
         name: 'kg',
@@ -240,7 +259,7 @@ const initialState = [
         day: '3',
         title: '4_t',
         sub_title: '4_s_t',
-        bg_img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/7d/7c/10/lenin-peak-7134m.jpg?w=1200&h=-1&s=1',
+        bg_img: c_3_1,
         card_details: {
             c_title: '4_t',
             c_sub_title: '4_c_s_t',
@@ -253,9 +272,9 @@ const initialState = [
             c_tour_op: '4_c_t_o',
             c_age: '4_c_age',
             c_size: '4_c_s',
-            c_img_1: 'https://images.unsplash.com/photo-1606296672103-4783b174ca71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            c_img_2: 'https://images.unsplash.com/photo-1586795153158-22bf74b4f1c3?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            c_img_3: 'https://images.unsplash.com/photo-1627628593424-5f197aebeaeb?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+            c_img_1: c_3_1 ,
+            c_img_2: c_3_2,
+            c_img_3: c_3_3,
             faq: [
                 {
                     ac: '4_f_1_ac',
@@ -278,8 +297,6 @@ const initialState = [
             ]
         }
     },
-
-
     {
         id: nanoid(),
         name: 'kg',
@@ -287,7 +304,7 @@ const initialState = [
         day: '7',
         title: '5_t',
         sub_title: '5_s_t',
-        bg_img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/7d/7c/10/lenin-peak-7134m.jpg?w=1200&h=-1&s=1',
+        bg_img: c_2_3,
         card_details: {
             c_title: '5_t',
             c_sub_title: '5_c_s_t',
@@ -300,9 +317,9 @@ const initialState = [
             c_tour_op: '5_c_t_o',
             c_age: '5_c_age',
             c_size: '5_c_s',
-            c_img_1: 'https://images.unsplash.com/photo-1606296672103-4783b174ca71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            c_img_2: 'https://images.unsplash.com/photo-1586795153158-22bf74b4f1c3?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            c_img_3: 'https://images.unsplash.com/photo-1627628593424-5f197aebeaeb?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+            c_img_1: c_1_1,
+            c_img_2:c_3_3,
+            c_img_3: c_3_2,
             faq: [
                 {
                     ac: '5_f_1_ac',
@@ -350,7 +367,6 @@ const initialState = [
             ]
         }
     },
-
     {
         id: nanoid(),
         name: 'kg',
@@ -358,7 +374,7 @@ const initialState = [
         day: '4',
         title: '6_t',
         sub_title: '6_s_t',
-        bg_img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/7d/7c/10/lenin-peak-7134m.jpg?w=1200&h=-1&s=1',
+        bg_img: f_1_1,
         card_details: {
             c_title: '6_t',
             c_sub_title: '6_c_s_t',
@@ -371,9 +387,9 @@ const initialState = [
             c_tour_op: '6_c_t_o',
             c_age: '6_c_age',
             c_size: '6_c_s',
-            c_img_1: 'https://images.unsplash.com/photo-1606296672103-4783b174ca71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            c_img_2: 'https://images.unsplash.com/photo-1586795153158-22bf74b4f1c3?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            c_img_3: 'https://images.unsplash.com/photo-1627628593424-5f197aebeaeb?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+            c_img_1: f_1_1,
+            c_img_2: f_1_2,
+            c_img_3: f_1_3,
             faq: [
                 {
                     ac: '6_f_1_ac',
@@ -410,7 +426,7 @@ const initialState = [
         day: '5',
         title: '7_t',
         sub_title: '7_s_t',
-        bg_img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/7d/7c/10/lenin-peak-7134m.jpg?w=1200&h=-1&s=1',
+        bg_img: f_1_1,
         card_details: {
             c_title: '7_t',
             c_sub_title: '7_c_s_t',
@@ -423,9 +439,9 @@ const initialState = [
             c_tour_op: '7_c_t_o',
             c_age: '7_c_age',
             c_size: '7_c_s',
-            c_img_1: 'https://images.unsplash.com/photo-1606296672103-4783b174ca71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            c_img_2: 'https://images.unsplash.com/photo-1586795153158-22bf74b4f1c3?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            c_img_3: 'https://images.unsplash.com/photo-1627628593424-5f197aebeaeb?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+            c_img_1: f_1_1,
+            c_img_2:f_1_2,
+            c_img_3: f_1_3,
             faq: [
                 {
                     ac: '7_f_1_ac',
@@ -835,12 +851,6 @@ const initialState = [
                     meals: '13_f_6_m',
                     q: '13_f_6_q',
                     a: '13_f_6_a'
-                },
-                {
-                    ac: '13_f_7_ac',
-                    meals: '13_f_7_m',
-                    q: '13_f_7_q',
-                    a: '13_f_7_a'
                 },
             ]
         }
