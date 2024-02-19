@@ -68,6 +68,7 @@ const initialState = [
             c_img_1: c_2_1,
             c_img_2: c_2_2,
             c_img_3: c_2_3,
+            c_w_note: 'w_note',
             faq: [
                 {
                     ac: '1_f_1_ac',
@@ -149,6 +150,7 @@ const initialState = [
             c_img_1: c_1_1,
             c_img_2: c_1_2,
             c_img_3: c_1_3,
+            c_w_note: 'w_note',
             faq: [
                 {
                     ac: '2_f_1_ac',
@@ -299,6 +301,7 @@ const initialState = [
             c_img_1: c_3_1 ,
             c_img_2: c_3_2,
             c_img_3: c_3_3,
+
             faq: [
                 {
                     ac: '4_f_1_ac',
