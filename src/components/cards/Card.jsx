@@ -45,7 +45,7 @@ const Card = () => {
                     <h3><b>{t('tour_op')}:</b> {t(c_tour_op)}</h3>
                     <h3><b>{t('age')}:</b> {t(c_age)}</h3>
                     <h3><b>{t('size')}:</b> {t(c_size)}</h3>
-                    <a href="https://chat.whatsapp.com/Df7YmMPMd6t9cDTqPniPgd">{t('type_wa')}</a>
+                    <a href="https://wa.me/+996558883024">{t('type_wa')}</a>
                 </div>
             </div>
             <p className="c_description" >{t(c_description)}</p>

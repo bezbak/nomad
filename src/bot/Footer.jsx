@@ -34,10 +34,10 @@ export default function Footer() {
                     <div className="footer__items-cols">
                         <h2>{t('footer_social')}</h2>
                         <div className="footer-icons">
-                            <a href="https://www.facebook.com/profile.php?id=61555421665774"><img src={face} alt="" /></a>
-                            <a href="https://youtube.com/@NomadPeaks?si=Z1X9Xop8Xuv7Tk09"><img src={you} alt="" /></a>
-                            <a href="https://www.instagram.com/p/CyvUErjNnU7/?igsh=MXR0NHVkNG10NmZyMg=="><img src={inst} alt="" /></a>
-                            <a href="https://chat.whatsapp.com/Df7YmMPMd6t9cDTqPniPgd"><img src={whats} alt="" /></a>
+                            <a href="https://www.facebook.com/profile.php?id=61555421665774" target='https://www.facebook.com/profile.php?id=61555421665774'><img src={face} alt="" /></a>
+                            <a href="https://youtube.com/@NomadPeaks?si=Z1X9Xop8Xuv7Tk09" target='https://youtube.com/@NomadPeaks?si=Z1X9Xop8Xuv7Tk09'><img src={you} alt="" /></a>
+                            <a href="https://www.instagram.com/nomadpeaks.kg?igsh=N2I5YWJhYzV5ajd4&utm_source=qr" target='https://www.instagram.com/nomadpeaks.kg?igsh=N2I5YWJhYzV5ajd4&utm_source=qr' ><img src={inst} alt="" /></a>
+                            <a href="https://wa.me/+996558883024" target='https://wa.me/+996558883024' ><img src={whats} alt="" /></a>
                         </div>
                       
                     </div>
@@ -45,8 +45,8 @@ export default function Footer() {
                     <h2>{t('footer_partners')}</h2>
                         <div className="footer-iconss">
                             <a href="https://www.oppa.kg/"><img src={oppa} alt="" /></a>
-                            <a href="https://youtube.com/@NomadPeaks?si=Z1X9Xop8Xuv7Tk09"><img src={standof} alt="" /></a>
-                            <a href="https://www.instagram.com/p/CyvUErjNnU7/?igsh=MXR0NHVkNG10NmZyMg=="><img src={turan} alt="" /></a>
+                            <a href="https://www.instagram.com/stanford_academkg?igsh=MWE2NG83a21taTlvYg=="><img src={standof} alt="" /></a>
+                            <a href="https://www.instagram.com/turan_karakol?igsh=MWtxdmNoa21kMmQ0NA=="><img src={turan} alt="" /></a>
                         </div>
                     </div>
                 </div>

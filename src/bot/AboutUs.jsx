@@ -6,7 +6,7 @@ import search from './icons/search.png'
 import at from './icons/at.png'
 import kg from './img/kg.png'
 import {useTranslation} from "react-i18next";
-
+ 
 export default function AboutUs() {
 
     const {t} = useTranslation()

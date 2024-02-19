@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import FiltersCountry from "../../features/Filters/Filters-country.jsx";
 import { useSelector } from "react-redux";
 import { CountrySelectors } from "../../features/Countries-details/Countries-selector.js";
@@ -18,13 +18,14 @@ const ToursDetails = () => {
     const countries = CountrySelectors(filteredCountries, activeFilterDay)
     const {url, title, description} = ToursTypeSelector(type)
     const {t} = useTranslation()
+    const navigate = useNavigate()
  
     return (
         <>
             <div className='details_header' style={{ backgroundImage: `url(${url})` }}>
                 <div className="dedais__header-content">
                 <h2>{t(title)}</h2>
-                <p>{t(description)}</p>
+                {/* <p>{t(description)}</p> */}
                 </div>
             </div>
             <FiltersCountry />
@@ -36,7 +37,7 @@ const ToursDetails = () => {
                 <h2>{t('soon')}...</h2>
                 :
                     countries.map(country =>
-                    <div key={country.id} className='cardDetails'>
+                    <div key={country.id} className='cardDetails' >
                         <img src={country.bg_img} alt="" />
                        <div className="cardDetails-content">
                        <h2>{t(country.title)}</h2>

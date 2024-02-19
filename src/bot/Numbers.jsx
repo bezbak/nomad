@@ -11,7 +11,7 @@ export default function Numbers() {
       <h2>NOMAD PEAKS {t('numbers')}</h2>
       <div className="numbers__flex">
         <div className="numbers__flex-items">
-            <h1>5000+</h1>
+            <h1>500+</h1>
             <p>{t('numbers_title_1')}</p>
         </div>
         <div className="numbers__flex-items">
