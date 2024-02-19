@@ -19,8 +19,21 @@ const AccordionItem = ({faqItem, onClick, isOpen}) => {
                 }
             >
                 <div className='accardion-body' ref={itemRef}>
-                <h3>{t('accomodation')}: {t(faqItem.ac)}</h3>
-                <h3>{t('meals')}: {t(faqItem.meals)}</h3>
+                    {
+                        t(faqItem.ac).length
+                        === 0
+                        ?
+                        null :
+                        <h3>{t('accomodation')}: {t(faqItem.ac)}</h3>
+                    }
+                    {
+                        t(faqItem.meals).length
+                        === 0
+                            ?
+                            null :
+                            <h3>{t('meals')}: {t(faqItem.meals)}</h3>
+                    }
+
                     {t(faqItem.a)}</div>
             </div>
         </li>
