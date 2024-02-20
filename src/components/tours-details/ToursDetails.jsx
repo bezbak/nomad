@@ -37,14 +37,16 @@ const ToursDetails = () => {
                 <h2>{t('soon')}...</h2>
                 :
                     countries.map(country =>
-                    <div key={country.id} className='cardDetails' >
+                        <Link key={country.id} className='cardDetails' to={`${country.day}`} state={{data: country.card_details}}> 
+    
                         <img src={country.bg_img} alt="" />
-                       <div className="cardDetails-content">
+                        <div className="cardDetails-content">
                        <h2>{t(country.title)}</h2>
                         <h3>{t(country.sub_title)}</h3>
-                        <Link className='btn' to={`${country.day}`} state={{data: country.card_details}}> <button>{t('tours_more_btn')}</button> </Link>
+                        <button className="btn">{t('tours_more_btn')}</button>
                        </div>
-                    </div>
+                
+                    </Link>
                 )
             }
             </div>

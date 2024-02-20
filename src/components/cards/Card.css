@@ -53,9 +53,7 @@
     object-fit: cover;
     height: 60vmin;
 }
-.card_desc h2{
-    font-size: clamp(16px, 4vmin, 46px);
-}
+
 .card_desc h3{
     font-weight: 100;
     line-height: clamp(15px, 2vmin, 30px);
@@ -81,4 +79,12 @@
     color: #FE940A;
     padding: 0px 5% 3vmin 5%;
     font-size: clamp(12px, 1.8vmin, 36px);
+}
+ul li{
+    font-weight: 700;
+    font-size: clamp(12px, 2vmin, 36px);
+
+}
+.please{
+    font-size: clamp(16px, 2.2vmin, 46px);
 }

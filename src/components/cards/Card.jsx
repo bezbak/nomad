@@ -65,9 +65,9 @@ const Card = () => {
                     ?
                     null
                     :
-                    <h2>{t('c_w_p')}: {t(c_w_note)}</h2>
+                    <h2 className="please">{t('c_w_p')}: {t(c_w_note)}</h2>
             }
-
+<br />
             <ul>
                 <h2>{t('included')}:</h2>
                 {
@@ -79,7 +79,7 @@ const Card = () => {
                 }
             </ul>
             <ul>
-                <h2>{t('not_included')}:</h2>
+               <br /> <h2>{t('not_included')}:</h2>
                 {
                     noinc.map(el => (
                         <li key={el.no}>
@@ -94,7 +94,7 @@ const Card = () => {
                     null
                     :
                 <ul>
-                    <h2>{t('equipment')}:</h2>
+                  <br />  <h2>{t('equipment')}:</h2>
                     {
                         equipment.map(el => (
                             <li key={el.eq}>

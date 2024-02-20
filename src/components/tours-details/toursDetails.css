@@ -52,13 +52,6 @@
     justify-content: space-evenly;
 }
 
-.card .btn{
-    width: 80%;
-    height: 10%;
-    background-color: cadetblue;
-    text-align: center;
-    /* font-size: 1.5em; */
-}
 .tours_con{
     
     padding:3% 0 2% calc(12% - 3vmin);
@@ -114,7 +107,7 @@
         height:clamp(230px, 40vmin, 800px) ;
     }
 }
-.cardDetails-content a button{
+.cardDetails-content  button{
     width: 100%;
     border: none;
     position: relative; 

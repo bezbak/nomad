@@ -276,7 +276,7 @@
 }
 
 .footer__items-cols a {
-    line-height: clamp(10px, 3vmin, 5vmin);
+    line-height: clamp(14px, 3vmin, 5vmin);
     text-decoration: none;
     color: #777881;
     transition: all .3s;

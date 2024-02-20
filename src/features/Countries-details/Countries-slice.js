@@ -37,12 +37,28 @@ import s_1_3 from './images/лыжа/Freestyle skiing and Ski excursions in Kyrg
 
 
 import uzb_1 from './images/uzb/uzb-1.avif'
-import uzb_2 from './images/uzb/uzb-2.avif'
+import uzb_2 from './images/uzb/uzb-7.avif'
 import uzb_3 from './images/uzb/uzb-3.avif'
 
 import uzb_4 from './images/uzb/uzb-4.avif'
 import uzb_5 from './images/uzb/uzb-5.avif'
 import uzb_6 from './images/uzb/uzb-6.webp'
+
+import tash from './images/tash.jpg'
+
+import kara from './images/kara3day.jpg'
+
+import son from './images/song_kul_horse_trek.jpg'
+
+import sary from './images/сарыой.jpg'
+
+import ch from './images/чыйырчык.jpg'
+
+import mogol from './images/mogol.jpg'
+
+import f_5_1 from './images/кожо2.jpg'
+import f_5_2 from './images/кожокелен.jpg'
+import f_5_3 from './images/пикЛенин.jpg'
 
 const initialState = [
     {
@@ -372,7 +388,7 @@ const initialState = [
             c_size: '3_c_s',
             c_img_1: h_1_1,
             c_img_2: h_1_2,
-            c_img_3: h_1_3,
+            c_img_3: son,
             inc: [
                 {
                     inc: 'accommodations_in_yurt_stay'
@@ -488,7 +504,7 @@ const initialState = [
             c_age: '4_c_age',
             c_size: '4_c_s',
             c_img_1: c_3_1 ,
-            c_img_2: c_3_2,
+            c_img_2: kara,
             c_img_3: c_3_3,
             inc: [
                 {
@@ -594,7 +610,7 @@ const initialState = [
             c_age: '5_c_age',
             c_size: '5_c_s',
             c_img_1: c_1_1,
-            c_img_2:c_3_3,
+            c_img_2:tash,
             c_img_3: c_3_2,
             inc: [
                 {
@@ -717,7 +733,7 @@ const initialState = [
         day: '4',
         title: '6_t',
         sub_title: '6_s_t',
-        bg_img: f_1_1,
+        bg_img: f_1_2,
         card_details: {
             c_title: '6_t',
             c_sub_title: '6_c_s_t',
@@ -730,7 +746,7 @@ const initialState = [
             c_tour_op: '6_c_t_o',
             c_age: '6_c_age',
             c_size: '6_c_s',
-            c_img_1: f_1_1,
+            c_img_1: mogol,
             c_img_2: f_1_2,
             c_img_3: f_1_3,
             inc: [
@@ -828,7 +844,7 @@ const initialState = [
             ]
         }
     },
-
+// nomad peaks.kg
     {
         id: nanoid(),
         name: 'kg',
@@ -836,7 +852,7 @@ const initialState = [
         day: '5',
         title: '7_t',
         sub_title: '7_s_t',
-        bg_img: f_1_1,
+        bg_img: f_5_1,
         card_details: {
             c_title: '7_t',
             c_sub_title: '7_c_s_t',
@@ -849,9 +865,9 @@ const initialState = [
             c_tour_op: '7_c_t_o',
             c_age: '7_c_age',
             c_size: '7_c_s',
-            c_img_1: f_1_1,
-            c_img_2:f_1_2,
-            c_img_3: f_1_3,
+            c_img_1: f_5_2,
+            c_img_2:f_5_3,
+            c_img_3: f_5_1,
             inc: [
                 {
                     inc: 'accommodations_in_yurt_stay_and_guest'
@@ -1328,7 +1344,7 @@ const initialState = [
         day: '1',
         title: '11_t',
         sub_title: '11_s_t',
-        bg_img:f_3_2,
+        bg_img:ch,
         card_details: {
             c_title: '11_t',
             c_sub_title: '11_c_s_t',
@@ -1342,8 +1358,8 @@ const initialState = [
             c_age: '11_c_age',
             c_size: '11_c_s',
             c_img_1: 'https://images.unsplash.com/photo-1606296672103-4783b174ca71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            c_img_2: 'https://images.unsplash.com/photo-1586795153158-22bf74b4f1c3?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            c_img_3: f_3_2,
+            c_img_2: sary,
+            c_img_3: ch,
             inc: [
                 {
                     inc: 'tour_guide'
