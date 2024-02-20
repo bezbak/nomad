@@ -1,4 +1,4 @@
-.card_con{
+    .card_con{
     display: flex;
     margin-top: clamp(110px, 10vmax, 300px);
     justify-content: center;
@@ -75,5 +75,10 @@
 }
 .c_description{
     padding: 3vmin 5%;
+    font-size: clamp(12px, 1.8vmin, 36px);
+}
+.cards__bottom{
+    color: #FE940A;
+    padding: 0px 5% 3vmin 5%;
     font-size: clamp(12px, 1.8vmin, 36px);
 }

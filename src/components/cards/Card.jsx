@@ -23,7 +23,8 @@ const Card = () => {
         c_img_1,
         c_img_2,
         c_img_3,
-        faq
+        faq,
+        c_w_note,
     } = data;
 
 
@@ -50,6 +51,20 @@ const Card = () => {
             </div>
             <p className="c_description" >{t(c_description)}</p>
             <Accordion faq={faq}/>
+            <div className="cards__bottom">
+            <h3>{t('w_1')}</h3><br />
+            <h3>{t('w_notes')}: {t('w_2')}</h3><br />
+            <h3>{t('w_3')}</h3><br />
+            <h3>{t('w_4')}</h3><br />
+            <h3>{t('c_pay')}: {t('w_5')}</h3><br />
+            {
+                t(c_w_note).length === 0
+                    ?
+                    null
+                    :
+                    <h2>{t('c_w_p')}: {t(c_w_note)}</h2>
+            }
+            </div>
         </div>
     );
 };

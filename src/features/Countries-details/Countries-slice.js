@@ -35,6 +35,15 @@ import s_1_1 from './images/лыжа/Freestyle skiing and Ski excursions in Kyrg
 import s_1_2 from './images/лыжа/Freestyle skiing and Ski excursions in Kyrgyzstan/img2.jpg'
 import s_1_3 from './images/лыжа/Freestyle skiing and Ski excursions in Kyrgyzstan/img3.jpg'
 
+
+import uzb_1 from './images/uzb/uzb-1.avif'
+import uzb_2 from './images/uzb/uzb-2.avif'
+import uzb_3 from './images/uzb/uzb-3.avif'
+
+import uzb_4 from './images/uzb/uzb-4.avif'
+import uzb_5 from './images/uzb/uzb-5.avif'
+import uzb_6 from './images/uzb/uzb-6.webp'
+
 const initialState = [
     {
         id: nanoid(),
@@ -59,6 +68,7 @@ const initialState = [
             c_img_1: c_2_1,
             c_img_2: c_2_2,
             c_img_3: c_2_3,
+            c_w_note: 'w_note',
             faq: [
                 {
                     ac: '1_f_1_ac',
@@ -140,6 +150,7 @@ const initialState = [
             c_img_1: c_1_1,
             c_img_2: c_1_2,
             c_img_3: c_1_3,
+            c_w_note: 'w_note',
             faq: [
                 {
                     ac: '2_f_1_ac',
@@ -290,6 +301,7 @@ const initialState = [
             c_img_1: c_3_1 ,
             c_img_2: c_3_2,
             c_img_3: c_3_3,
+
             faq: [
                 {
                     ac: '4_f_1_ac',
@@ -632,7 +644,7 @@ const initialState = [
         day: '1',
         title: '10_t',
         sub_title: '10_s_t',
-        bg_img: f_3_1,
+        bg_img: 'https://incredibleosh.kg/wp-content/uploads/2022/10/282107322_1406246423177112_3320303701345549084_n.jpg',
         card_details: {
             c_title: '10_t',
             c_sub_title: '10_c_s_t',
@@ -645,7 +657,7 @@ const initialState = [
             c_tour_op: '10_c_t_o',
             c_age: '10_c_age',
             c_size: '10_c_s',
-            c_img_1: f_3_1,
+            c_img_1: 'https://incredibleosh.kg/wp-content/uploads/2022/10/282107322_1406246423177112_3320303701345549084_n.jpg',
             c_img_2: f_3_2,
             c_img_3: f_3_3,
             faq: [
@@ -703,8 +715,8 @@ const initialState = [
             c_age: '11_c_age',
             c_size: '11_c_s',
             c_img_1: 'https://images.unsplash.com/photo-1606296672103-4783b174ca71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            c_img_2: 'https://images.unsplash.com/photo-1586795153158-22bf74b4f1c3?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            c_img_3: f_3_2,
+            c_img_2: 'https://triptokyrgyzstan.com/sites/default/files/images/2019-03/c_lusika_2.jpg',
+            c_img_3: 'https://www.journalofnomads.com/wp-content/uploads/2021/10/Tolpar-Kul-Lake-Lenin-Peak-Kyrgyzstan.jpg',
             faq: [
                 {
                     ac: '11_f_1_ac',
@@ -859,6 +871,566 @@ const initialState = [
             ]
         }
     },
+
+
+
+    {
+        id: nanoid(),
+        name: 'uz',
+        type: 'transport',
+        day: '8',
+        title: '14_t',
+        sub_title: '14_s_t',
+        bg_img: uzb_1,
+        card_details: {
+            c_title: '14_t',
+            c_sub_title: '14_c_s_t',
+            c_description: '14_c_d',
+            c_category: '14_c_c',
+            c_time: '14_c_t',
+            c_acc: '14_c_a',
+            c_d: '14_s_t',
+            c_operate: '14_c_o',
+            c_tour_op: '14_c_t_o',
+            c_age: '14_c_age',
+            c_size: '14_c_s',
+            c_img_1: uzb_1,
+            c_img_2: uzb_2,
+            c_img_3:uzb_3,
+            faq: [
+                {
+                    ac: '14_f_1_ac',
+                    meals: '14_f_1_m',
+                    q: '14_f_1_q',
+                    a: '14_f_1_a'
+                },
+                {
+                    ac: '14_f_2_ac',
+                    meals: '14_f_2_m',
+                    q: '14_f_2_q',
+                    a: '14_f_2_a'
+                },
+                {
+                    ac: '14_f_3_ac',
+                    meals: '14_f_3_m',
+                    q: '14_f_3_q',
+                    a: '14_f_3_a'
+                },
+                {
+                    ac: '14_f_4_ac',
+                    meals: '14_f_4_m',
+                    q: '14_f_4_q',
+                    a: '14_f_4_a'
+                },
+                {
+                    ac: '14_f_5_ac',
+                    meals: '14_f_5_m',
+                    q: '14_f_5_q',
+                    a: '14_f_5_a'
+                },
+                {
+                    ac: '14_f_6_ac',
+                    meals: '14_f_6_m',
+                    q: '14_f_6_q',
+                    a: '14_f_6_a'
+                },
+                {
+                    ac: '14_f_7_ac',
+                    meals: '14_f_7_m',
+                    q: '14_f_7_q',
+                    a: '14_f_7_a'
+                },
+                {
+                    ac: '14_f_8_ac',
+                    meals: '14_f_8_m',
+                    q: '14_f_8_q',
+                    a: '14_f_8_a'
+                },
+            ]
+        }
+    },
+
+    {
+        id: nanoid(),
+        name: 'uz',
+        type: 'onfoot',
+        day: '8',
+        title: '14_t',
+        sub_title: '14_s_t',
+        bg_img: uzb_1,
+        card_details: {
+            c_title: '14_t',
+            c_sub_title: '14_c_s_t',
+            c_description: '14_c_d',
+            c_category: '14_c_c',
+            c_time: '14_c_t',
+            c_acc: '14_c_a',
+            c_d: '14_s_t',
+            c_operate: '14_c_o',
+            c_tour_op: '14_c_t_o',
+            c_age: '14_c_age',
+            c_size: '14_c_s',
+            c_img_1: uzb_2,
+            c_img_2: uzb_1,
+            c_img_3: uzb_3,
+            faq: [
+                {
+                    ac: '14_f_1_ac',
+                    meals: '14_f_1_m',
+                    q: '14_f_1_q',
+                    a: '14_f_1_a'
+                },
+                {
+                    ac: '14_f_2_ac',
+                    meals: '14_f_2_m',
+                    q: '14_f_2_q',
+                    a: '14_f_2_a'
+                },
+                {
+                    ac: '14_f_3_ac',
+                    meals: '14_f_3_m',
+                    q: '14_f_3_q',
+                    a: '14_f_3_a'
+                },
+                {
+                    ac: '14_f_4_ac',
+                    meals: '14_f_4_m',
+                    q: '14_f_4_q',
+                    a: '14_f_4_a'
+                },
+                {
+                    ac: '14_f_5_ac',
+                    meals: '14_f_5_m',
+                    q: '14_f_5_q',
+                    a: '14_f_5_a'
+                },
+                {
+                    ac: '14_f_6_ac',
+                    meals: '14_f_6_m',
+                    q: '14_f_6_q',
+                    a: '14_f_6_a'
+                },
+                {
+                    ac: '14_f_7_ac',
+                    meals: '14_f_7_m',
+                    q: '14_f_7_q',
+                    a: '14_f_7_a'
+                },
+                {
+                    ac: '14_f_8_ac',
+                    meals: '14_f_8_m',
+                    q: '14_f_8_q',
+                    a: '14_f_8_a'
+                },
+            ]
+        }
+    },
+
+    {
+        id: nanoid(),
+        name: 'uz',
+        type: 'horse',
+        day: '8',
+        title: '14_t',
+        sub_title: '14_s_t',
+        bg_img: uzb_1,
+        card_details: {
+            c_title: '14_t',
+            c_sub_title: '14_c_s_t',
+            c_description: '14_c_d',
+            c_category: '14_c_c',
+            c_time: '14_c_t',
+            c_acc: '14_c_a',
+            c_d: '14_s_t',
+            c_operate: '14_c_o',
+            c_tour_op: '14_c_t_o',
+            c_age: '14_c_age',
+            c_size: '14_c_s',
+            c_img_1: uzb_1,
+            c_img_2: uzb_2,
+            c_img_3: uzb_3,
+            faq: [
+                {
+                    ac: '14_f_1_ac',
+                    meals: '14_f_1_m',
+                    q: '14_f_1_q',
+                    a: '14_f_1_a'
+                },
+                {
+                    ac: '14_f_2_ac',
+                    meals: '14_f_2_m',
+                    q: '14_f_2_q',
+                    a: '14_f_2_a'
+                },
+                {
+                    ac: '14_f_3_ac',
+                    meals: '14_f_3_m',
+                    q: '14_f_3_q',
+                    a: '14_f_3_a'
+                },
+                {
+                    ac: '14_f_4_ac',
+                    meals: '14_f_4_m',
+                    q: '14_f_4_q',
+                    a: '14_f_4_a'
+                },
+                {
+                    ac: '14_f_5_ac',
+                    meals: '14_f_5_m',
+                    q: '14_f_5_q',
+                    a: '14_f_5_a'
+                },
+                {
+                    ac: '14_f_6_ac',
+                    meals: '14_f_6_m',
+                    q: '14_f_6_q',
+                    a: '14_f_6_a'
+                },
+                {
+                    ac: '14_f_7_ac',
+                    meals: '14_f_7_m',
+                    q: '14_f_7_q',
+                    a: '14_f_7_a'
+                },
+                {
+                    ac: '14_f_8_ac',
+                    meals: '14_f_8_m',
+                    q: '14_f_8_q',
+                    a: '14_f_8_a'
+                },
+            ]
+        }
+    },
+
+    {
+        id: nanoid(),
+        name: 'uz',
+        type: 'ski',
+        day: '8',
+        title: '14_t',
+        sub_title: '14_s_t',
+        bg_img: uzb_1,
+        card_details: {
+            c_title: '14_t',
+            c_sub_title: '14_c_s_t',
+            c_description: '14_c_d',
+            c_category: '14_c_c',
+            c_time: '14_c_t',
+            c_acc: '14_c_a',
+            c_d: '14_s_t',
+            c_operate: '14_c_o',
+            c_tour_op: '14_c_t_o',
+            c_age: '14_c_age',
+            c_size: '14_c_s',
+            c_img_1: uzb_3,
+            c_img_2: uzb_2,
+            c_img_3: uzb_1,
+            faq: [
+                {
+                    ac: '14_f_1_ac',
+                    meals: '14_f_1_m',
+                    q: '14_f_1_q',
+                    a: '14_f_1_a'
+                },
+                {
+                    ac: '14_f_2_ac',
+                    meals: '14_f_2_m',
+                    q: '14_f_2_q',
+                    a: '14_f_2_a'
+                },
+                {
+                    ac: '14_f_3_ac',
+                    meals: '14_f_3_m',
+                    q: '14_f_3_q',
+                    a: '14_f_3_a'
+                },
+                {
+                    ac: '14_f_4_ac',
+                    meals: '14_f_4_m',
+                    q: '14_f_4_q',
+                    a: '14_f_4_a'
+                },
+                {
+                    ac: '14_f_5_ac',
+                    meals: '14_f_5_m',
+                    q: '14_f_5_q',
+                    a: '14_f_5_a'
+                },
+                {
+                    ac: '14_f_6_ac',
+                    meals: '14_f_6_m',
+                    q: '14_f_6_q',
+                    a: '14_f_6_a'
+                },
+                {
+                    ac: '14_f_7_ac',
+                    meals: '14_f_7_m',
+                    q: '14_f_7_q',
+                    a: '14_f_7_a'
+                },
+                {
+                    ac: '14_f_8_ac',
+                    meals: '14_f_8_m',
+                    q: '14_f_8_q',
+                    a: '14_f_8_a'
+                },
+            ]
+        }
+    },
+
+    {
+        id: nanoid(),
+        name: 'uz',
+        type: 'transport',
+        day: '6',
+        title: '15_t',
+        sub_title: '15_s_t',
+        bg_img: uzb_4,
+        card_details: {
+            c_title: '15_t',
+            c_sub_title: '15_c_s_t',
+            c_description: '15_c_d',
+            c_category: '15_c_c',
+            c_time: '15_c_t',
+            c_acc: '15_c_a',
+            c_d: '15_s_t',
+            c_operate: '15_c_o',
+            c_tour_op: '15_c_t_o',
+            c_age: '15_c_age',
+            c_size: '15_c_s',
+            c_img_1: uzb_4,
+            c_img_2: uzb_5,
+            c_img_3: uzb_6,
+            faq: [
+                {
+                    ac: '15_f_1_ac',
+                    meals: '15_f_1_m',
+                    q: '15_f_1_q',
+                    a: '15_f_1_a'
+                },
+                {
+                    ac: '15_f_2_ac',
+                    meals: '15_f_2_m',
+                    q: '15_f_2_q',
+                    a: '15_f_2_a'
+                },
+                {
+                    ac: '15_f_3_ac',
+                    meals: '15_f_3_m',
+                    q: '15_f_3_q',
+                    a: '15_f_3_a'
+                },
+                {
+                    ac: '15_f_4_ac',
+                    meals: '15_f_4_m',
+                    q: '15_f_4_q',
+                    a: '15_f_4_a'
+                },
+                {
+                    ac: '15_f_5_ac',
+                    meals: '15_f_5_m',
+                    q: '15_f_5_q',
+                    a: '15_f_5_a'
+                },
+                {
+                    ac: '15_f_6_ac',
+                    meals: '15_f_6_m',
+                    q: '15_f_6_q',
+                    a: '15_f_6_a'
+                },
+            ]
+        }
+    },
+    {
+        id: nanoid(),
+        name: 'uz',
+        type: 'onfoot',
+        day: '6',
+        title: '15_t',
+        sub_title: '15_s_t',
+        bg_img: uzb_4,
+        card_details: {
+            c_title: '15_t',
+            c_sub_title: '15_c_s_t',
+            c_description: '15_c_d',
+            c_category: '15_c_c',
+            c_time: '15_c_t',
+            c_acc: '15_c_a',
+            c_d: '15_s_t',
+            c_operate: '15_c_o',
+            c_tour_op: '15_c_t_o',
+            c_age: '15_c_age',
+            c_size: '15_c_s',
+            c_img_1: uzb_4,
+            c_img_2: uzb_5,
+            c_img_3: uzb_6,
+            faq: [
+                {
+                    ac: '15_f_1_ac',
+                    meals: '15_f_1_m',
+                    q: '15_f_1_q',
+                    a: '15_f_1_a'
+                },
+                {
+                    ac: '15_f_2_ac',
+                    meals: '15_f_2_m',
+                    q: '15_f_2_q',
+                    a: '15_f_2_a'
+                },
+                {
+                    ac: '15_f_3_ac',
+                    meals: '15_f_3_m',
+                    q: '15_f_3_q',
+                    a: '15_f_3_a'
+                },
+                {
+                    ac: '15_f_4_ac',
+                    meals: '15_f_4_m',
+                    q: '15_f_4_q',
+                    a: '15_f_4_a'
+                },
+                {
+                    ac: '15_f_5_ac',
+                    meals: '15_f_5_m',
+                    q: '15_f_5_q',
+                    a: '15_f_5_a'
+                },
+                {
+                    ac: '15_f_6_ac',
+                    meals: '15_f_6_m',
+                    q: '15_f_6_q',
+                    a: '15_f_6_a'
+                },
+            ]
+        }
+    },
+    {
+        id: nanoid(),
+        name: 'uz',
+        type: 'horse',
+        day: '6',
+        title: '15_t',
+        sub_title: '15_s_t',
+        bg_img: uzb_4,
+        card_details: {
+            c_title: '15_t',
+            c_sub_title: '15_c_s_t',
+            c_description: '15_c_d',
+            c_category: '15_c_c',
+            c_time: '15_c_t',
+            c_acc: '15_c_a',
+            c_d: '15_s_t',
+            c_operate: '15_c_o',
+            c_tour_op: '15_c_t_o',
+            c_age: '15_c_age',
+            c_size: '15_c_s',
+            c_img_1: uzb_4,
+            c_img_2: uzb_5,
+            c_img_3: uzb_6,
+            faq: [
+                {
+                    ac: '15_f_1_ac',
+                    meals: '15_f_1_m',
+                    q: '15_f_1_q',
+                    a: '15_f_1_a'
+                },
+                {
+                    ac: '15_f_2_ac',
+                    meals: '15_f_2_m',
+                    q: '15_f_2_q',
+                    a: '15_f_2_a'
+                },
+                {
+                    ac: '15_f_3_ac',
+                    meals: '15_f_3_m',
+                    q: '15_f_3_q',
+                    a: '15_f_3_a'
+                },
+                {
+                    ac: '15_f_4_ac',
+                    meals: '15_f_4_m',
+                    q: '15_f_4_q',
+                    a: '15_f_4_a'
+                },
+                {
+                    ac: '15_f_5_ac',
+                    meals: '15_f_5_m',
+                    q: '15_f_5_q',
+                    a: '15_f_5_a'
+                },
+                {
+                    ac: '15_f_6_ac',
+                    meals: '15_f_6_m',
+                    q: '15_f_6_q',
+                    a: '15_f_6_a'
+                },
+            ]
+        }
+    },
+    {
+        id: nanoid(),
+        name: 'uz',
+        type: 'ski',
+        day: '6',
+        title: '15_t',
+        sub_title: '15_s_t',
+        bg_img: uzb_4,
+        card_details: {
+            c_title: '15_t',
+            c_sub_title: '15_c_s_t',
+            c_description: '15_c_d',
+            c_category: '15_c_c',
+            c_time: '15_c_t',
+            c_acc: '15_c_a',
+            c_d: '15_s_t',
+            c_operate: '15_c_o',
+            c_tour_op: '15_c_t_o',
+            c_age: '15_c_age',
+            c_size: '15_c_s',
+            c_img_1: uzb_4,
+            c_img_2: uzb_5,
+            c_img_3: uzb_6,
+            faq: [
+                {
+                    ac: '15_f_1_ac',
+                    meals: '15_f_1_m',
+                    q: '15_f_1_q',
+                    a: '15_f_1_a'
+                },
+                {
+                    ac: '15_f_2_ac',
+                    meals: '15_f_2_m',
+                    q: '15_f_2_q',
+                    a: '15_f_2_a'
+                },
+                {
+                    ac: '15_f_3_ac',
+                    meals: '15_f_3_m',
+                    q: '15_f_3_q',
+                    a: '15_f_3_a'
+                },
+                {
+                    ac: '15_f_4_ac',
+                    meals: '15_f_4_m',
+                    q: '15_f_4_q',
+                    a: '15_f_4_a'
+                },
+                {
+                    ac: '15_f_5_ac',
+                    meals: '15_f_5_m',
+                    q: '15_f_5_q',
+                    a: '15_f_5_a'
+                },
+                {
+                    ac: '15_f_6_ac',
+                    meals: '15_f_6_m',
+                    q: '15_f_6_q',
+                    a: '15_f_6_a'
+                },
+            ]
+        }
+    },
+
 
 ]
 
