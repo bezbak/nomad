@@ -25,6 +25,9 @@ const Card = () => {
         c_img_3,
         faq,
         c_w_note,
+        inc,
+        noinc,
+        equipment
     } = data;
 
 
@@ -49,7 +52,7 @@ const Card = () => {
                     <a href="https://wa.me/+996558883024">{t('type_wa')}</a>
                 </div>
             </div>
-            <p className="c_description" >{t(c_description)}</p>
+            <p className="c_description">{t(c_description)}</p>
             <Accordion faq={faq}/>
             <div className="cards__bottom">
             <h3>{t('w_1')}</h3><br />
@@ -64,10 +67,47 @@ const Card = () => {
                     :
                     <h2>{t('c_w_p')}: {t(c_w_note)}</h2>
             }
-            </div>
+
+            <ul>
+                <h2>{t('included')}:</h2>
+                {
+                    inc.map(el => (
+                        <li key={el.inc}>
+                            {t(el.inc)}
+                        </li>
+                    ))
+                }
+            </ul>
+            <ul>
+                <h2>{t('not_included')}:</h2>
+                {
+                    noinc.map(el => (
+                        <li key={el.no}>
+                            {t(el.no)}
+                        </li>
+                    ))
+                }
+            </ul>
+            {
+                equipment.length === 0
+                ?
+                    null
+                    :
+                <ul>
+                    <h2>{t('equipment')}:</h2>
+                    {
+                        equipment.map(el => (
+                            <li key={el.eq}>
+                                {t(el.eq)}
+                            </li>
+                        ))
+                    }
+                </ul>
+            }
+        </div>
         </div>
     );
 };
-``
+
 
 export default Card;

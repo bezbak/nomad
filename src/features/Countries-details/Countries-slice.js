@@ -69,6 +69,69 @@ const initialState = [
             c_img_2: c_2_2,
             c_img_3: c_2_3,
             c_w_note: 'w_note',
+            inc: [
+                {
+                    inc: 'accommodations_in_yurt_stay_and_hotel'
+                },
+                {
+                    inc: 'tour_guide'
+                },
+                {
+                    inc: 'driver'
+                },
+                {
+                    inc: 'transport_from_to_bishkek'
+                },
+                {
+                    inc: '1_f_2_m'
+                },
+            ],
+            noinc: [
+                {
+                    no: 'hotel_and_meals_in_bishkek'
+                },
+                {
+                    no: 'international_flights'
+                },
+                {
+                    no: 'personal_travel_insurance'
+                },
+                {
+                    no: 'single_room_supplement'
+                },
+                {
+                    no: 'additional_overnight'
+                },
+                {
+                    no: 'alcoholic_drinks'
+                },
+                {
+                    no: 'services_outside'
+                },
+                {
+                    no: "travel_and_health_insurance"
+                }
+            ],
+            equipment: [
+                {
+                    eq: 'trekking_boots'
+                },
+                {
+                    eq: 'sleeping_bag'
+                },
+                {
+                    eq: 'hat'
+                },
+                {
+                    eq: 'sun_glasses'
+                },
+                {
+                    eq: 'sunscreen'
+                },
+                {
+                    eq: 'warm_and_waterproof_jacket'
+                }
+            ],
             faq: [
                 {
                     ac: '1_f_1_ac',
@@ -150,6 +213,72 @@ const initialState = [
             c_img_1: c_1_1,
             c_img_2: c_1_2,
             c_img_3: c_1_3,
+            inc: [
+                {
+                    inc: 'accommodations_in_yurt_stay_and_hotel'
+                },
+                {
+                    inc: 'tour_guide'
+                },
+                {
+                    inc: 'driver'
+                },
+                {
+                    inc: 'transport_from_to_bishkek'
+                },
+                {
+                    inc: '1_f_2_m'
+                }
+            ],
+            noinc: [
+                {
+                    no: 'hotel_and_meals_in_bishkek'
+                },
+                {
+                    no: 'international_flights'
+                },
+                {
+                    no: 'personal_travel_insurance'
+                },
+                {
+                    no: 'single_room_supplement'
+                },
+                {
+                    no: 'additional_overnight'
+                },
+                {
+                    no: 'alcoholic_drinks'
+                },
+                {
+                  no: 'tips'
+                },
+                {
+                    no: 'services_outside'
+                },
+                {
+                    no: "travel_and_health_insurance"
+                }
+            ],
+            equipment: [
+                {
+                    eq: 'trekking_boots'
+                },
+                {
+                    eq: 'sleeping_bag'
+                },
+                {
+                    eq: 'hat'
+                },
+                {
+                    eq: 'sun_glasses'
+                },
+                {
+                    eq: 'sunscreen'
+                },
+                {
+                    eq: 'warm_and_waterproof_jacket'
+                }
+            ],
             c_w_note: 'w_note',
             faq: [
                 {
@@ -244,6 +373,66 @@ const initialState = [
             c_img_1: h_1_1,
             c_img_2: h_1_2,
             c_img_3: h_1_3,
+            inc: [
+                {
+                    inc: 'accommodations_in_yurt_stay'
+                },
+                {
+                    inc: 'tour_guide'
+                },
+                {
+                    inc: 'driver'
+                },
+                {
+                    inc: 'transport_from_to_bishkek'
+                },
+                {
+                    inc: '1_f_2_m'
+                },
+                {
+                    inc: 'snacks'
+                }
+            ],
+            noinc: [
+                {
+                    no: 'hotel_and_meals_in_bishkek'
+                },
+                {
+                    no: 'international_flights'
+                },
+                {
+                    no: 'personal_travel_insurance'
+                },
+                {
+                    no: 'alcoholic_drinks'
+                },
+                {
+                    no: 'tips'
+                },
+                {
+                    no: 'services_outside'
+                },
+                {
+                    no: "travel_and_health_insurance"
+                }
+            ],
+            equipment: [
+                {
+                    eq: 'hat'
+                },
+                {
+                    eq: 'sun_glasses'
+                },
+                {
+                    eq: 'sunscreen'
+                },
+                {
+                    eq: 'warm_and_waterproof_jacket'
+                },
+                {
+                    eq: 'gloves'
+                }
+            ],
             faq: [
                 {
                     ac: '3_f_1_ac',
@@ -301,7 +490,67 @@ const initialState = [
             c_img_1: c_3_1 ,
             c_img_2: c_3_2,
             c_img_3: c_3_3,
+            inc: [
+                {
+                    inc: 'accommodations_in_yurt_stay_and_hotel'
+                },
+                {
+                    inc: 'tour_guide'
+                },
+                {
+                    inc: 'driver'
+                },
+                {
+                    inc: 'transport_from_to_bishkek'
+                },
+                {
+                    inc: '1_f_2_m'
+                },
+                {
+                    inc: 'snacks'
+                }
 
+            ],
+            noinc: [
+                {
+                    no: 'hotel_and_meals_in_bishkek'
+                },
+                {
+                    no: 'international_flights'
+                },
+                {
+                    no: 'personal_travel_insurance'
+                },
+                {
+                    no: 'alcoholic_drinks'
+                },
+                {
+                    no: 'tips'
+                },
+                {
+                    no: 'services_outside'
+                },
+                {
+                    no: "travel_and_health_insurance"
+                }
+            ],
+            equipment: [
+                {
+                    eq: 'hat'
+                },
+                {
+                    eq: 'sun_glasses'
+                },
+                {
+                    eq: 'sunscreen'
+                },
+                {
+                    eq: 'warm_and_waterproof_jacket'
+                },
+                {
+                    eq: 'gloves'
+                }
+            ],
             faq: [
                 {
                     ac: '4_f_1_ac',
@@ -347,6 +596,73 @@ const initialState = [
             c_img_1: c_1_1,
             c_img_2:c_3_3,
             c_img_3: c_3_2,
+            inc: [
+                {
+                    inc: 'accommodations_in_yurt_stay_and_guest_hotel'
+                },
+                {
+                    inc: 'tour_guide'
+                },
+                {
+                    inc: 'driver'
+                },
+                {
+                    inc: 'transport_from_to_bishkek'
+                },
+                {
+                    inc: '1_f_2_m'
+                },
+                {
+                    inc: 'snacks'
+                }
+
+            ],
+            noinc: [
+                {
+                    no: 'hotel_and_meals_in_bishkek'
+                },
+                {
+                    no: 'international_flights'
+                },
+                {
+                    no: 'personal_travel_insurance'
+                },
+                {
+                    no: 'alcoholic_drinks'
+                },
+                {
+                    no: 'tips'
+                },
+                {
+                    no: 'services_outside'
+                },
+                {
+                    no: "travel_and_health_insurance"
+                },
+                {
+                    no: 'bottled_water'
+                }
+            ],
+            equipment: [
+                {
+                  eq: 'trekking_boots'
+                },
+                {
+                    eq: 'hat'
+                },
+                {
+                    eq: 'sun_glasses'
+                },
+                {
+                    eq: 'sunscreen'
+                },
+                {
+                    eq: 'warm_and_waterproof_jacket'
+                },
+                {
+                    eq: 'gloves'
+                }
+            ],
             faq: [
                 {
                     ac: '5_f_1_ac',
@@ -417,6 +733,73 @@ const initialState = [
             c_img_1: f_1_1,
             c_img_2: f_1_2,
             c_img_3: f_1_3,
+            inc: [
+                {
+                    inc: 'accommodations_in_yurt_stay_and_guest'
+                },
+                {
+                    inc: 'tour_guide'
+                },
+                {
+                    inc: 'driver'
+                },
+                {
+                    inc: 'transport_from_to_osh'
+                },
+                {
+                    inc: '1_f_2_m'
+                },
+                {
+                    inc: 'snacks'
+                },
+                {
+                    inc: 'bottled_water'
+                }
+
+            ],
+            noinc: [
+                {
+                    no: 'international_flights'
+                },
+                {
+                    no: 'personal_travel_insurance'
+                },
+                {
+                    no: 'alcoholic_drinks'
+                },
+                {
+                    no: 'tips'
+                },
+                {
+                    no: 'services_outside'
+                },
+                {
+                    no: "travel_and_health_insurance"
+                },
+                {
+                    no: "trekking_poles"
+                }
+            ],
+            equipment: [
+                {
+                    eq: 'high_qualities_trekking_boots'
+                },
+                {
+                    eq: 'sun_glasses'
+                },
+                {
+                    eq: 'sunscreen'
+                },
+                {
+                    eq: 'warm_and_waterproof_jacket'
+                },
+                {
+                    eq: 'trekking_poles'
+                },
+                {
+                    eq: 'small_back'
+                }
+            ],
             faq: [
                 {
                     ac: '6_f_1_ac',
@@ -469,6 +852,79 @@ const initialState = [
             c_img_1: f_1_1,
             c_img_2:f_1_2,
             c_img_3: f_1_3,
+            inc: [
+                {
+                    inc: 'accommodations_in_yurt_stay_and_guest'
+                },
+                {
+                    inc: 'tour_guide'
+                },
+                {
+                    inc: 'driver'
+                },
+                {
+                    inc: 'transport_from_to_osh'
+                },
+                {
+                    inc: '1_f_2_m'
+                },
+                {
+                    inc: 'snacks'
+                },
+                {
+                    inc: 'bottled_water'
+                },
+                {
+                    inc: 'horse_horse_man'
+                }
+
+            ],
+            noinc: [
+                {
+                    no: 'international_flights'
+                },
+                {
+                    no: 'personal_travel_insurance'
+                },
+                {
+                    no: 'alcoholic_drinks'
+                },
+                {
+                    no: 'tips'
+                },
+                {
+                    no: 'services_outside'
+                },
+                {
+                    no: "travel_and_health_insurance"
+                },
+                {
+                    no: "trekking_poles"
+                }
+            ],
+            equipment: [
+                {
+                    eq: 'high_qualities_trekking_boots'
+                },
+                {
+                    eq: 'sun_glasses'
+                },
+                {
+                    eq: 'sunscreen'
+                },
+                {
+                    eq: 'warm_and_waterproof_jacket'
+                },
+                {
+                    eq: 'trekking_poles'
+                },
+                {
+                    eq: 'small_back'
+                },
+                {
+                    eq: 'sleeping_bag_c'
+                }
+            ],
             faq: [
                 {
                     ac: '7_f_1_ac',
@@ -527,6 +983,67 @@ const initialState = [
             c_img_1: f_2_1,
             c_img_2:f_2_2,
             c_img_3: f_2_3,
+            inc: [
+                {
+                    inc: 'tour_guide'
+                },
+                {
+                    inc: 'driver'
+                },
+                {
+                    inc: 'transport_from_to_bishkek'
+                },
+                {
+                    inc: 'lunch'
+                },
+                {
+                    inc: 'snacks'
+                },
+                {
+                    inc: 'bottled_water'
+                },
+
+            ],
+            noinc: [
+                {
+                    no: 'personal_travel_insurance'
+                },
+                {
+                    no: 'alcoholic_drinks'
+                },
+                {
+                    no: 'tips'
+                },
+                {
+                    no: 'services_outside'
+                },
+                {
+                    no: "travel_and_health_insurance"
+                },
+                {
+                    no: "trekking_poles"
+                }
+            ],
+            equipment: [
+                {
+                    eq: 'high_qualities_trekking_boots'
+                },
+                {
+                    eq: 'sun_glasses'
+                },
+                {
+                    eq: 'sunscreen'
+                },
+                {
+                    eq: 'warm_and_waterproof_jacket'
+                },
+                {
+                    eq: 'trekking_poles'
+                },
+                {
+                    eq: 'small_back'
+                },
+            ],
             faq: [
                 {
                     ac: '8_f_1_ac',
@@ -597,6 +1114,58 @@ const initialState = [
             c_img_1: c_4_1,
             c_img_2: c_4_2,
             c_img_3: c_4_3,
+            inc: [
+                {
+                    inc: 'tour_guide'
+                },
+                {
+                    inc: 'driver'
+                },
+                {
+                    inc: 'transport_from_to_bishkek'
+                },
+                {
+                    inc: 'lunch'
+                },
+                {
+                    inc: 'bottled_water'
+                },
+                {
+                    inc: 'entrance_fees'
+                }
+
+            ],
+            noinc: [
+                {
+                    no: 'personal_travel_insurance'
+                },
+                {
+                    no: 'alcoholic_drinks'
+                },
+                {
+                    no: 'tips'
+                },
+                {
+                    no: 'services_outside'
+                },
+                {
+                    no: "travel_and_health_insurance"
+                },
+                {
+                    no: "entrance_hot"
+                }
+            ],
+            equipment: [
+                {
+                    eq: 'sun_glasses'
+                },
+                {
+                    eq: 'sunscreen'
+                },
+                {
+                    eq: 'warm_and_waterproof_jacket'
+                },
+            ],
             faq: [
                 {
                     ac: '9_f_1_ac',
@@ -660,6 +1229,64 @@ const initialState = [
             c_img_1: 'https://incredibleosh.kg/wp-content/uploads/2022/10/282107322_1406246423177112_3320303701345549084_n.jpg',
             c_img_2: f_3_2,
             c_img_3: f_3_3,
+            inc: [
+                {
+                    inc: 'tour_guide'
+                },
+                {
+                    inc: 'driver'
+                },
+                {
+                    inc: 'transport_from_to_osh'
+                },
+                {
+                    inc: 'lunch'
+                },
+                {
+                    inc: 'bottled_water'
+                },
+                {
+                    inc: 'snacks'
+                }
+
+            ],
+            noinc: [
+                {
+                    no: 'alcoholic_drinks'
+                },
+                {
+                    no: 'tips'
+                },
+                {
+                    no: 'services_outside'
+                },
+                {
+                    no: "travel_and_health_insurance"
+                },
+                {
+                    no: "trekking_poles"
+                }
+            ],
+            equipment: [
+                {
+                    eq: 'trekking_boots'
+                },
+                {
+                    eq: 'trekking_poles'
+                },
+                {
+                    eq: 'sunscreen'
+                },
+                {
+                    eq: 'sun_glasses'
+                },
+                {
+                    eq: 'small_back'
+                },
+                {
+                    eq: 'warm_and_waterproof_jacket'
+                },
+            ],
             faq: [
                 {
                     ac: '10_f_1_ac',
@@ -715,8 +1342,66 @@ const initialState = [
             c_age: '11_c_age',
             c_size: '11_c_s',
             c_img_1: 'https://images.unsplash.com/photo-1606296672103-4783b174ca71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            c_img_2: 'https://triptokyrgyzstan.com/sites/default/files/images/2019-03/c_lusika_2.jpg',
-            c_img_3: 'https://www.journalofnomads.com/wp-content/uploads/2021/10/Tolpar-Kul-Lake-Lenin-Peak-Kyrgyzstan.jpg',
+            c_img_2: 'https://images.unsplash.com/photo-1586795153158-22bf74b4f1c3?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+            c_img_3: f_3_2,
+            inc: [
+                {
+                    inc: 'tour_guide'
+                },
+                {
+                    inc: 'driver'
+                },
+                {
+                    inc: 'transport_from_to_osh'
+                },
+                {
+                    inc: 'lunch'
+                },
+                {
+                    inc: 'bottled_water'
+                },
+                {
+                    inc: 'snacks'
+                }
+
+            ],
+            noinc: [
+                {
+                    no: 'alcoholic_drinks'
+                },
+                {
+                    no: 'tips'
+                },
+                {
+                    no: 'services_outside'
+                },
+                {
+                    no: "travel_and_health_insurance"
+                },
+                {
+                    no: "trekking_poles"
+                }
+            ],
+            equipment: [
+                {
+                    eq: 'trekking_boots'
+                },
+                {
+                    eq: 'trekking_poles'
+                },
+                {
+                    eq: 'sunscreen'
+                },
+                {
+                    eq: 'sun_glasses'
+                },
+                {
+                    eq: 'small_back'
+                },
+                {
+                    eq: 'warm_and_waterproof_jacket'
+                },
+            ],
             faq: [
                 {
                     ac: '11_f_1_ac',
@@ -774,6 +1459,33 @@ const initialState = [
             c_img_1: f_3_1,
             c_img_2: 'https://media-cdn.tripadvisor.com/media/photo-m/1280/14/f7/1f/8d/snacks-at-jayma-bazaar.jpg',
             c_img_3: 'https://central-asia.guide/wp-content/uploads/2021/10/osh_park_main_square-1024x682.jpg',
+            inc: [
+                {
+                  inc: 'sightseeing_tour'
+                },
+                {
+                    inc: 'tickets'
+                },
+                {
+                    inc: 'lunch'
+                },
+
+            ],
+            noinc: [
+                {
+                    no: 'alcoholic_drinks'
+                },
+                {
+                    no: 'services_outside'
+                },
+                {
+                    no: "travel_and_health_insurance"
+                },
+                {
+                    no: "purchased_items"
+                }
+            ],
+            equipment: [],
             faq: [
                 {
                     ac: '12_f_1_ac',
@@ -831,6 +1543,100 @@ const initialState = [
             c_img_1: s_1_1,
             c_img_2: s_1_2,
             c_img_3:s_1_3,
+            inc: [
+                {
+                    inc: 'accommodations_in_guest'
+                },
+                {
+                    inc: 'tour_guide'
+                },
+                {
+                    inc: 'driver'
+                },
+                {
+                    inc: 'transport_from_to_bishkek'
+                },
+                {
+                    inc: '1_f_2_m'
+                },
+                {
+                    inc: 'bottled_water'
+                },
+
+            ],
+            noinc: [
+                {
+                  no: 'acc_in_bishkek'
+                },
+                {
+                  no: 'hotel_and_meals_in_bishkek'
+                },
+                {
+                  no: 'international_flights'
+                },
+                {
+                  no: 'single_room_supplement'
+                },
+                {
+                  no: 'personal_travel_insurance'
+                },
+                {
+                  no: 'additional_overnight'
+                },
+                {
+                    no: 'alcoholic_drinks'
+                },
+                {
+                    no: 'services_outside'
+                },
+                {
+                    no: "travel_and_health_insurance"
+                },
+            ],
+            equipment: [
+                {
+                    eq: 'high_qualities_trekking_boots'
+                },
+                {
+                    eq: 'sunscreen'
+                },
+                {
+                    eq: 'sun_glasses'
+                },
+                {
+                    eq: 'ski_touring'
+                },
+                {
+                    eq: 'avalanche'
+                },
+                {
+                    eq: 'ski_mask'
+                },
+                {
+                    eq: 'freeride_backpack'
+                },
+                {
+                    eq: 'helmet'
+                },
+                {
+                    eq: 'm_f'
+                },
+                {
+                    eq: 'thermos'
+                },
+                {
+                    eq: 'head_flashlight'
+                },
+                {
+                    eq: 'ski_jacket'
+                },
+                {
+                    eq: 'gloves'
+                },
+                {
+                    eq: 'sattelite_phone'
+                }
+            ],
             faq: [
                 {
                     ac: '13_f_1_ac',
@@ -897,6 +1703,72 @@ const initialState = [
             c_img_1: uzb_1,
             c_img_2: uzb_2,
             c_img_3:uzb_3,
+            inc: [
+                {
+                    inc: 'accommodations_uz'
+                },
+                {
+                    inc: 'tour_guide'
+                },
+                {
+                    inc: 'transport'
+                },
+                {
+                    inc: 'flights'
+                },
+                {
+                    inc: 'entrance_uz'
+                }
+            ],
+            noinc: [
+                {
+                    no: 'single_room_supplement'
+                },
+                {
+                    no: 'international_flights'
+                },
+                {
+                    no: 'personal_travel_insurance'
+                },
+                {
+                    no: 'alcoholic_drinks'
+                },
+                {
+                    no: 'tips'
+                },
+                {
+                    no: 'services_outside'
+                },
+                {
+                    no: "travel_and_health_insurance"
+                },
+                {
+                    no: 'additional_overnight'
+                },
+                {
+                    no: 'meals_uz'
+                },
+                {
+                    no: 'the_fees_uz'
+                },
+                {
+                    no: 'personal_ex'
+                }
+            ],
+            equipment: [
+                {
+                    eq: 'hat'
+                },
+                {
+                    eq: 'sun_glasses'
+                },
+                {
+                    eq: 'sunscreen'
+                },
+                {
+                    eq: 'warm_and_waterproof_jacket'
+                },
+            ],
             faq: [
                 {
                     ac: '14_f_1_ac',
@@ -973,6 +1845,72 @@ const initialState = [
             c_img_1: uzb_2,
             c_img_2: uzb_1,
             c_img_3: uzb_3,
+            inc: [
+                {
+                    inc: 'accommodations_uz'
+                },
+                {
+                    inc: 'tour_guide'
+                },
+                {
+                    inc: 'transport'
+                },
+                {
+                    inc: 'flights'
+                },
+                {
+                    inc: 'entrance_uz'
+                }
+            ],
+            noinc: [
+                {
+                    no: 'single_room_supplement'
+                },
+                {
+                    no: 'international_flights'
+                },
+                {
+                    no: 'personal_travel_insurance'
+                },
+                {
+                    no: 'alcoholic_drinks'
+                },
+                {
+                    no: 'tips'
+                },
+                {
+                    no: 'services_outside'
+                },
+                {
+                    no: "travel_and_health_insurance"
+                },
+                {
+                    no: 'additional_overnight'
+                },
+                {
+                    no: 'meals_uz'
+                },
+                {
+                    no: 'the_fees_uz'
+                },
+                {
+                    no: 'personal_ex'
+                }
+            ],
+            equipment: [
+                {
+                    eq: 'hat'
+                },
+                {
+                    eq: 'sun_glasses'
+                },
+                {
+                    eq: 'sunscreen'
+                },
+                {
+                    eq: 'warm_and_waterproof_jacket'
+                },
+            ],
             faq: [
                 {
                     ac: '14_f_1_ac',
@@ -1049,6 +1987,72 @@ const initialState = [
             c_img_1: uzb_1,
             c_img_2: uzb_2,
             c_img_3: uzb_3,
+            inc: [
+                {
+                    inc: 'accommodations_uz'
+                },
+                {
+                    inc: 'tour_guide'
+                },
+                {
+                    inc: 'transport'
+                },
+                {
+                    inc: 'flights'
+                },
+                {
+                    inc: 'entrance_uz'
+                }
+            ],
+            noinc: [
+                {
+                    no: 'single_room_supplement'
+                },
+                {
+                    no: 'international_flights'
+                },
+                {
+                    no: 'personal_travel_insurance'
+                },
+                {
+                    no: 'alcoholic_drinks'
+                },
+                {
+                    no: 'tips'
+                },
+                {
+                    no: 'services_outside'
+                },
+                {
+                    no: "travel_and_health_insurance"
+                },
+                {
+                    no: 'additional_overnight'
+                },
+                {
+                    no: 'meals_uz'
+                },
+                {
+                    no: 'the_fees_uz'
+                },
+                {
+                    no: 'personal_ex'
+                }
+            ],
+            equipment: [
+                {
+                    eq: 'hat'
+                },
+                {
+                    eq: 'sun_glasses'
+                },
+                {
+                    eq: 'sunscreen'
+                },
+                {
+                    eq: 'warm_and_waterproof_jacket'
+                },
+            ],
             faq: [
                 {
                     ac: '14_f_1_ac',
@@ -1125,6 +2129,72 @@ const initialState = [
             c_img_1: uzb_3,
             c_img_2: uzb_2,
             c_img_3: uzb_1,
+            inc: [
+                {
+                    inc: 'accommodations_uz'
+                },
+                {
+                    inc: 'tour_guide'
+                },
+                {
+                    inc: 'transport'
+                },
+                {
+                    inc: 'flights'
+                },
+                {
+                    inc: 'entrance_uz'
+                }
+            ],
+            noinc: [
+                {
+                    no: 'single_room_supplement'
+                },
+                {
+                    no: 'international_flights'
+                },
+                {
+                    no: 'personal_travel_insurance'
+                },
+                {
+                    no: 'alcoholic_drinks'
+                },
+                {
+                    no: 'tips'
+                },
+                {
+                    no: 'services_outside'
+                },
+                {
+                    no: "travel_and_health_insurance"
+                },
+                {
+                    no: 'additional_overnight'
+                },
+                {
+                    no: 'meals_uz'
+                },
+                {
+                    no: 'the_fees_uz'
+                },
+                {
+                    no: 'personal_ex'
+                }
+            ],
+            equipment: [
+                {
+                    eq: 'hat'
+                },
+                {
+                    eq: 'sun_glasses'
+                },
+                {
+                    eq: 'sunscreen'
+                },
+                {
+                    eq: 'warm_and_waterproof_jacket'
+                },
+            ],
             faq: [
                 {
                     ac: '14_f_1_ac',
@@ -1201,6 +2271,78 @@ const initialState = [
             c_img_1: uzb_4,
             c_img_2: uzb_5,
             c_img_3: uzb_6,
+            inc: [
+                {
+                    inc: 'accomodation'
+                },
+                {
+                    inc: 'tour_guide'
+                },
+                {
+                    inc: 'transport'
+                },
+                {
+                    inc: 'flights'
+                },
+                {
+                    inc: 'entrance_uz'
+                },
+                {
+                    inc: 'breakfast'
+                },
+                {
+                    inc: 'train_tickets'
+                }
+            ],
+            noinc: [
+                {
+                    no: 'single_room_supplement'
+                },
+                {
+                    no: 'international_flights'
+                },
+                {
+                    no: 'personal_travel_insurance'
+                },
+                {
+                    no: 'alcoholic_drinks'
+                },
+                {
+                    no: 'tips'
+                },
+                {
+                    no: 'services_outside'
+                },
+                {
+                    no: "travel_and_health_insurance"
+                },
+                {
+                    no: 'additional_overnight'
+                },
+                {
+                    no: 'meals_uz'
+                },
+                {
+                    no: 'the_fees_uz'
+                },
+                {
+                    no: 'personal_ex'
+                }
+            ],
+            equipment: [
+                {
+                    eq: 'hat'
+                },
+                {
+                    eq: 'sun_glasses'
+                },
+                {
+                    eq: 'sunscreen'
+                },
+                {
+                    eq: 'warm_and_waterproof_jacket'
+                },
+            ],
             faq: [
                 {
                     ac: '15_f_1_ac',
@@ -1264,6 +2406,78 @@ const initialState = [
             c_img_1: uzb_4,
             c_img_2: uzb_5,
             c_img_3: uzb_6,
+            inc: [
+                {
+                    inc: 'accomodation'
+                },
+                {
+                    inc: 'tour_guide'
+                },
+                {
+                    inc: 'transport'
+                },
+                {
+                    inc: 'flights'
+                },
+                {
+                    inc: 'entrance_uz'
+                },
+                {
+                    inc: 'breakfast'
+                },
+                {
+                    inc: 'train_tickets'
+                }
+            ],
+            noinc: [
+                {
+                    no: 'single_room_supplement'
+                },
+                {
+                    no: 'international_flights'
+                },
+                {
+                    no: 'personal_travel_insurance'
+                },
+                {
+                    no: 'alcoholic_drinks'
+                },
+                {
+                    no: 'tips'
+                },
+                {
+                    no: 'services_outside'
+                },
+                {
+                    no: "travel_and_health_insurance"
+                },
+                {
+                    no: 'additional_overnight'
+                },
+                {
+                    no: 'meals_uz'
+                },
+                {
+                    no: 'the_fees_uz'
+                },
+                {
+                    no: 'personal_ex'
+                }
+            ],
+            equipment: [
+                {
+                    eq: 'hat'
+                },
+                {
+                    eq: 'sun_glasses'
+                },
+                {
+                    eq: 'sunscreen'
+                },
+                {
+                    eq: 'warm_and_waterproof_jacket'
+                },
+            ],
             faq: [
                 {
                     ac: '15_f_1_ac',
@@ -1327,6 +2541,78 @@ const initialState = [
             c_img_1: uzb_4,
             c_img_2: uzb_5,
             c_img_3: uzb_6,
+            inc: [
+                {
+                    inc: 'accomodation'
+                },
+                {
+                    inc: 'tour_guide'
+                },
+                {
+                    inc: 'transport'
+                },
+                {
+                    inc: 'flights'
+                },
+                {
+                    inc: 'entrance_uz'
+                },
+                {
+                    inc: 'breakfast'
+                },
+                {
+                    inc: 'train_tickets'
+                }
+            ],
+            noinc: [
+                {
+                    no: 'single_room_supplement'
+                },
+                {
+                    no: 'international_flights'
+                },
+                {
+                    no: 'personal_travel_insurance'
+                },
+                {
+                    no: 'alcoholic_drinks'
+                },
+                {
+                    no: 'tips'
+                },
+                {
+                    no: 'services_outside'
+                },
+                {
+                    no: "travel_and_health_insurance"
+                },
+                {
+                    no: 'additional_overnight'
+                },
+                {
+                    no: 'meals_uz'
+                },
+                {
+                    no: 'the_fees_uz'
+                },
+                {
+                    no: 'personal_ex'
+                }
+            ],
+            equipment: [
+                {
+                    eq: 'hat'
+                },
+                {
+                    eq: 'sun_glasses'
+                },
+                {
+                    eq: 'sunscreen'
+                },
+                {
+                    eq: 'warm_and_waterproof_jacket'
+                },
+            ],
             faq: [
                 {
                     ac: '15_f_1_ac',
@@ -1390,6 +2676,78 @@ const initialState = [
             c_img_1: uzb_4,
             c_img_2: uzb_5,
             c_img_3: uzb_6,
+            inc: [
+                {
+                    inc: 'accomodation'
+                },
+                {
+                    inc: 'tour_guide'
+                },
+                {
+                    inc: 'transport'
+                },
+                {
+                    inc: 'flights'
+                },
+                {
+                    inc: 'entrance_uz'
+                },
+                {
+                    inc: 'breakfast'
+                },
+                {
+                    inc: 'train_tickets'
+                }
+            ],
+            noinc: [
+                {
+                    no: 'single_room_supplement'
+                },
+                {
+                    no: 'international_flights'
+                },
+                {
+                    no: 'personal_travel_insurance'
+                },
+                {
+                    no: 'alcoholic_drinks'
+                },
+                {
+                    no: 'tips'
+                },
+                {
+                    no: 'services_outside'
+                },
+                {
+                    no: "travel_and_health_insurance"
+                },
+                {
+                    no: 'additional_overnight'
+                },
+                {
+                    no: 'meals_uz'
+                },
+                {
+                    no: 'the_fees_uz'
+                },
+                {
+                    no: 'personal_ex'
+                }
+            ],
+            equipment: [
+                {
+                    eq: 'hat'
+                },
+                {
+                    eq: 'sun_glasses'
+                },
+                {
+                    eq: 'sunscreen'
+                },
+                {
+                    eq: 'warm_and_waterproof_jacket'
+                },
+            ],
             faq: [
                 {
                     ac: '15_f_1_ac',
